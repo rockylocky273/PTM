@@ -1,0 +1,7 @@
+﻿id,name,mapped_points,units,outside_catalog_minmax,extreme_tail_features,domain_flag
+elysium_planitia,Elysium Planitia,9,"{""AHtu"": 4, ""lAv"": 3, ""lHt"": 2}",0,0,within_sampled_earth_feature_ranges
+jezero_entorno,Jezero (entorno),9,"{""AHi"": 1, ""HNt"": 3, ""eHv"": 1, ""lHt"": 1, ""mNh"": 1, ""mNhm"": 2}",0,3,within_sampled_earth_feature_ranges
+gale_entorno,Gale (entorno),9,"{""AHi"": 7, ""HNt"": 1, ""Htu"": 1}",1,5,partial_reference_extrapolation
+olympus_mons,Olympus Mons,9,"{""Ave"": 9}",5,5,all_features_outside_sampled_earth_range
+meridiani_planum,Meridiani Planum,9,"{""HNhu"": 9}",0,0,within_sampled_earth_feature_ranges
+syrtis_major_planum,Syrtis Major Planum,9,"{""eHv"": 9}",0,0,within_sampled_earth_feature_ranges

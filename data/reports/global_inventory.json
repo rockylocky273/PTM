@@ -1,0 +1,737 @@
+{
+  "analogs_ranked": false,
+  "complete": false,
+  "coverage_fraction_tiles": 0.0,
+  "dataset": "ETOPO_2022_v1_60s",
+  "invalid_tiles": 0,
+  "land_mask_status": "not_applied",
+  "missing_tiles": 72,
+  "plan_file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/plan.json",
+  "plan_sha256": "99bc4965eb91bbddc3de5eea0a9814d67ccd0d609d5dd454af71ba3bb4b78bd1",
+  "schema_version": "global_inventory_v0.5",
+  "tiles": [
+    {
+      "east_0_360": 30,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t00_00_stride60.nc",
+      "north": -60,
+      "sha256": "",
+      "south": -90,
+      "status": "not_downloaded",
+      "tile_id": "t00_00",
+      "west_0_360": 0
+    },
+    {
+      "east_0_360": 60,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t00_01_stride60.nc",
+      "north": -60,
+      "sha256": "",
+      "south": -90,
+      "status": "not_downloaded",
+      "tile_id": "t00_01",
+      "west_0_360": 30
+    },
+    {
+      "east_0_360": 90,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t00_02_stride60.nc",
+      "north": -60,
+      "sha256": "",
+      "south": -90,
+      "status": "not_downloaded",
+      "tile_id": "t00_02",
+      "west_0_360": 60
+    },
+    {
+      "east_0_360": 120,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t00_03_stride60.nc",
+      "north": -60,
+      "sha256": "",
+      "south": -90,
+      "status": "not_downloaded",
+      "tile_id": "t00_03",
+      "west_0_360": 90
+    },
+    {
+      "east_0_360": 150,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t00_04_stride60.nc",
+      "north": -60,
+      "sha256": "",
+      "south": -90,
+      "status": "not_downloaded",
+      "tile_id": "t00_04",
+      "west_0_360": 120
+    },
+    {
+      "east_0_360": 180,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t00_05_stride60.nc",
+      "north": -60,
+      "sha256": "",
+      "south": -90,
+      "status": "not_downloaded",
+      "tile_id": "t00_05",
+      "west_0_360": 150
+    },
+    {
+      "east_0_360": 210,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t00_06_stride60.nc",
+      "north": -60,
+      "sha256": "",
+      "south": -90,
+      "status": "not_downloaded",
+      "tile_id": "t00_06",
+      "west_0_360": 180
+    },
+    {
+      "east_0_360": 240,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t00_07_stride60.nc",
+      "north": -60,
+      "sha256": "",
+      "south": -90,
+      "status": "not_downloaded",
+      "tile_id": "t00_07",
+      "west_0_360": 210
+    },
+    {
+      "east_0_360": 270,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t00_08_stride60.nc",
+      "north": -60,
+      "sha256": "",
+      "south": -90,
+      "status": "not_downloaded",
+      "tile_id": "t00_08",
+      "west_0_360": 240
+    },
+    {
+      "east_0_360": 300,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t00_09_stride60.nc",
+      "north": -60,
+      "sha256": "",
+      "south": -90,
+      "status": "not_downloaded",
+      "tile_id": "t00_09",
+      "west_0_360": 270
+    },
+    {
+      "east_0_360": 330,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t00_10_stride60.nc",
+      "north": -60,
+      "sha256": "",
+      "south": -90,
+      "status": "not_downloaded",
+      "tile_id": "t00_10",
+      "west_0_360": 300
+    },
+    {
+      "east_0_360": 360,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t00_11_stride60.nc",
+      "north": -60,
+      "sha256": "",
+      "south": -90,
+      "status": "not_downloaded",
+      "tile_id": "t00_11",
+      "west_0_360": 330
+    },
+    {
+      "east_0_360": 30,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t01_00_stride60.nc",
+      "north": -30,
+      "sha256": "",
+      "south": -60,
+      "status": "not_downloaded",
+      "tile_id": "t01_00",
+      "west_0_360": 0
+    },
+    {
+      "east_0_360": 60,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t01_01_stride60.nc",
+      "north": -30,
+      "sha256": "",
+      "south": -60,
+      "status": "not_downloaded",
+      "tile_id": "t01_01",
+      "west_0_360": 30
+    },
+    {
+      "east_0_360": 90,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t01_02_stride60.nc",
+      "north": -30,
+      "sha256": "",
+      "south": -60,
+      "status": "not_downloaded",
+      "tile_id": "t01_02",
+      "west_0_360": 60
+    },
+    {
+      "east_0_360": 120,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t01_03_stride60.nc",
+      "north": -30,
+      "sha256": "",
+      "south": -60,
+      "status": "not_downloaded",
+      "tile_id": "t01_03",
+      "west_0_360": 90
+    },
+    {
+      "east_0_360": 150,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t01_04_stride60.nc",
+      "north": -30,
+      "sha256": "",
+      "south": -60,
+      "status": "not_downloaded",
+      "tile_id": "t01_04",
+      "west_0_360": 120
+    },
+    {
+      "east_0_360": 180,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t01_05_stride60.nc",
+      "north": -30,
+      "sha256": "",
+      "south": -60,
+      "status": "not_downloaded",
+      "tile_id": "t01_05",
+      "west_0_360": 150
+    },
+    {
+      "east_0_360": 210,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t01_06_stride60.nc",
+      "north": -30,
+      "sha256": "",
+      "south": -60,
+      "status": "not_downloaded",
+      "tile_id": "t01_06",
+      "west_0_360": 180
+    },
+    {
+      "east_0_360": 240,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t01_07_stride60.nc",
+      "north": -30,
+      "sha256": "",
+      "south": -60,
+      "status": "not_downloaded",
+      "tile_id": "t01_07",
+      "west_0_360": 210
+    },
+    {
+      "east_0_360": 270,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t01_08_stride60.nc",
+      "north": -30,
+      "sha256": "",
+      "south": -60,
+      "status": "not_downloaded",
+      "tile_id": "t01_08",
+      "west_0_360": 240
+    },
+    {
+      "east_0_360": 300,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t01_09_stride60.nc",
+      "north": -30,
+      "sha256": "",
+      "south": -60,
+      "status": "not_downloaded",
+      "tile_id": "t01_09",
+      "west_0_360": 270
+    },
+    {
+      "east_0_360": 330,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t01_10_stride60.nc",
+      "north": -30,
+      "sha256": "",
+      "south": -60,
+      "status": "not_downloaded",
+      "tile_id": "t01_10",
+      "west_0_360": 300
+    },
+    {
+      "east_0_360": 360,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t01_11_stride60.nc",
+      "north": -30,
+      "sha256": "",
+      "south": -60,
+      "status": "not_downloaded",
+      "tile_id": "t01_11",
+      "west_0_360": 330
+    },
+    {
+      "east_0_360": 30,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t02_00_stride60.nc",
+      "north": 0,
+      "sha256": "",
+      "south": -30,
+      "status": "not_downloaded",
+      "tile_id": "t02_00",
+      "west_0_360": 0
+    },
+    {
+      "east_0_360": 60,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t02_01_stride60.nc",
+      "north": 0,
+      "sha256": "",
+      "south": -30,
+      "status": "not_downloaded",
+      "tile_id": "t02_01",
+      "west_0_360": 30
+    },
+    {
+      "east_0_360": 90,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t02_02_stride60.nc",
+      "north": 0,
+      "sha256": "",
+      "south": -30,
+      "status": "not_downloaded",
+      "tile_id": "t02_02",
+      "west_0_360": 60
+    },
+    {
+      "east_0_360": 120,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t02_03_stride60.nc",
+      "north": 0,
+      "sha256": "",
+      "south": -30,
+      "status": "not_downloaded",
+      "tile_id": "t02_03",
+      "west_0_360": 90
+    },
+    {
+      "east_0_360": 150,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t02_04_stride60.nc",
+      "north": 0,
+      "sha256": "",
+      "south": -30,
+      "status": "not_downloaded",
+      "tile_id": "t02_04",
+      "west_0_360": 120
+    },
+    {
+      "east_0_360": 180,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t02_05_stride60.nc",
+      "north": 0,
+      "sha256": "",
+      "south": -30,
+      "status": "not_downloaded",
+      "tile_id": "t02_05",
+      "west_0_360": 150
+    },
+    {
+      "east_0_360": 210,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t02_06_stride60.nc",
+      "north": 0,
+      "sha256": "",
+      "south": -30,
+      "status": "not_downloaded",
+      "tile_id": "t02_06",
+      "west_0_360": 180
+    },
+    {
+      "east_0_360": 240,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t02_07_stride60.nc",
+      "north": 0,
+      "sha256": "",
+      "south": -30,
+      "status": "not_downloaded",
+      "tile_id": "t02_07",
+      "west_0_360": 210
+    },
+    {
+      "east_0_360": 270,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t02_08_stride60.nc",
+      "north": 0,
+      "sha256": "",
+      "south": -30,
+      "status": "not_downloaded",
+      "tile_id": "t02_08",
+      "west_0_360": 240
+    },
+    {
+      "east_0_360": 300,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t02_09_stride60.nc",
+      "north": 0,
+      "sha256": "",
+      "south": -30,
+      "status": "not_downloaded",
+      "tile_id": "t02_09",
+      "west_0_360": 270
+    },
+    {
+      "east_0_360": 330,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t02_10_stride60.nc",
+      "north": 0,
+      "sha256": "",
+      "south": -30,
+      "status": "not_downloaded",
+      "tile_id": "t02_10",
+      "west_0_360": 300
+    },
+    {
+      "east_0_360": 360,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t02_11_stride60.nc",
+      "north": 0,
+      "sha256": "",
+      "south": -30,
+      "status": "not_downloaded",
+      "tile_id": "t02_11",
+      "west_0_360": 330
+    },
+    {
+      "east_0_360": 30,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t03_00_stride60.nc",
+      "north": 30,
+      "sha256": "",
+      "south": 0,
+      "status": "not_downloaded",
+      "tile_id": "t03_00",
+      "west_0_360": 0
+    },
+    {
+      "east_0_360": 60,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t03_01_stride60.nc",
+      "north": 30,
+      "sha256": "",
+      "south": 0,
+      "status": "not_downloaded",
+      "tile_id": "t03_01",
+      "west_0_360": 30
+    },
+    {
+      "east_0_360": 90,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t03_02_stride60.nc",
+      "north": 30,
+      "sha256": "",
+      "south": 0,
+      "status": "not_downloaded",
+      "tile_id": "t03_02",
+      "west_0_360": 60
+    },
+    {
+      "east_0_360": 120,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t03_03_stride60.nc",
+      "north": 30,
+      "sha256": "",
+      "south": 0,
+      "status": "not_downloaded",
+      "tile_id": "t03_03",
+      "west_0_360": 90
+    },
+    {
+      "east_0_360": 150,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t03_04_stride60.nc",
+      "north": 30,
+      "sha256": "",
+      "south": 0,
+      "status": "not_downloaded",
+      "tile_id": "t03_04",
+      "west_0_360": 120
+    },
+    {
+      "east_0_360": 180,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t03_05_stride60.nc",
+      "north": 30,
+      "sha256": "",
+      "south": 0,
+      "status": "not_downloaded",
+      "tile_id": "t03_05",
+      "west_0_360": 150
+    },
+    {
+      "east_0_360": 210,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t03_06_stride60.nc",
+      "north": 30,
+      "sha256": "",
+      "south": 0,
+      "status": "not_downloaded",
+      "tile_id": "t03_06",
+      "west_0_360": 180
+    },
+    {
+      "east_0_360": 240,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t03_07_stride60.nc",
+      "north": 30,
+      "sha256": "",
+      "south": 0,
+      "status": "not_downloaded",
+      "tile_id": "t03_07",
+      "west_0_360": 210
+    },
+    {
+      "east_0_360": 270,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t03_08_stride60.nc",
+      "north": 30,
+      "sha256": "",
+      "south": 0,
+      "status": "not_downloaded",
+      "tile_id": "t03_08",
+      "west_0_360": 240
+    },
+    {
+      "east_0_360": 300,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t03_09_stride60.nc",
+      "north": 30,
+      "sha256": "",
+      "south": 0,
+      "status": "not_downloaded",
+      "tile_id": "t03_09",
+      "west_0_360": 270
+    },
+    {
+      "east_0_360": 330,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t03_10_stride60.nc",
+      "north": 30,
+      "sha256": "",
+      "south": 0,
+      "status": "not_downloaded",
+      "tile_id": "t03_10",
+      "west_0_360": 300
+    },
+    {
+      "east_0_360": 360,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t03_11_stride60.nc",
+      "north": 30,
+      "sha256": "",
+      "south": 0,
+      "status": "not_downloaded",
+      "tile_id": "t03_11",
+      "west_0_360": 330
+    },
+    {
+      "east_0_360": 30,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t04_00_stride60.nc",
+      "north": 60,
+      "sha256": "",
+      "south": 30,
+      "status": "not_downloaded",
+      "tile_id": "t04_00",
+      "west_0_360": 0
+    },
+    {
+      "east_0_360": 60,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t04_01_stride60.nc",
+      "north": 60,
+      "sha256": "",
+      "south": 30,
+      "status": "not_downloaded",
+      "tile_id": "t04_01",
+      "west_0_360": 30
+    },
+    {
+      "east_0_360": 90,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t04_02_stride60.nc",
+      "north": 60,
+      "sha256": "",
+      "south": 30,
+      "status": "not_downloaded",
+      "tile_id": "t04_02",
+      "west_0_360": 60
+    },
+    {
+      "east_0_360": 120,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t04_03_stride60.nc",
+      "north": 60,
+      "sha256": "",
+      "south": 30,
+      "status": "not_downloaded",
+      "tile_id": "t04_03",
+      "west_0_360": 90
+    },
+    {
+      "east_0_360": 150,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t04_04_stride60.nc",
+      "north": 60,
+      "sha256": "",
+      "south": 30,
+      "status": "not_downloaded",
+      "tile_id": "t04_04",
+      "west_0_360": 120
+    },
+    {
+      "east_0_360": 180,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t04_05_stride60.nc",
+      "north": 60,
+      "sha256": "",
+      "south": 30,
+      "status": "not_downloaded",
+      "tile_id": "t04_05",
+      "west_0_360": 150
+    },
+    {
+      "east_0_360": 210,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t04_06_stride60.nc",
+      "north": 60,
+      "sha256": "",
+      "south": 30,
+      "status": "not_downloaded",
+      "tile_id": "t04_06",
+      "west_0_360": 180
+    },
+    {
+      "east_0_360": 240,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t04_07_stride60.nc",
+      "north": 60,
+      "sha256": "",
+      "south": 30,
+      "status": "not_downloaded",
+      "tile_id": "t04_07",
+      "west_0_360": 210
+    },
+    {
+      "east_0_360": 270,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t04_08_stride60.nc",
+      "north": 60,
+      "sha256": "",
+      "south": 30,
+      "status": "not_downloaded",
+      "tile_id": "t04_08",
+      "west_0_360": 240
+    },
+    {
+      "east_0_360": 300,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t04_09_stride60.nc",
+      "north": 60,
+      "sha256": "",
+      "south": 30,
+      "status": "not_downloaded",
+      "tile_id": "t04_09",
+      "west_0_360": 270
+    },
+    {
+      "east_0_360": 330,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t04_10_stride60.nc",
+      "north": 60,
+      "sha256": "",
+      "south": 30,
+      "status": "not_downloaded",
+      "tile_id": "t04_10",
+      "west_0_360": 300
+    },
+    {
+      "east_0_360": 360,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t04_11_stride60.nc",
+      "north": 60,
+      "sha256": "",
+      "south": 30,
+      "status": "not_downloaded",
+      "tile_id": "t04_11",
+      "west_0_360": 330
+    },
+    {
+      "east_0_360": 30,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t05_00_stride60.nc",
+      "north": 90,
+      "sha256": "",
+      "south": 60,
+      "status": "not_downloaded",
+      "tile_id": "t05_00",
+      "west_0_360": 0
+    },
+    {
+      "east_0_360": 60,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t05_01_stride60.nc",
+      "north": 90,
+      "sha256": "",
+      "south": 60,
+      "status": "not_downloaded",
+      "tile_id": "t05_01",
+      "west_0_360": 30
+    },
+    {
+      "east_0_360": 90,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t05_02_stride60.nc",
+      "north": 90,
+      "sha256": "",
+      "south": 60,
+      "status": "not_downloaded",
+      "tile_id": "t05_02",
+      "west_0_360": 60
+    },
+    {
+      "east_0_360": 120,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t05_03_stride60.nc",
+      "north": 90,
+      "sha256": "",
+      "south": 60,
+      "status": "not_downloaded",
+      "tile_id": "t05_03",
+      "west_0_360": 90
+    },
+    {
+      "east_0_360": 150,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t05_04_stride60.nc",
+      "north": 90,
+      "sha256": "",
+      "south": 60,
+      "status": "not_downloaded",
+      "tile_id": "t05_04",
+      "west_0_360": 120
+    },
+    {
+      "east_0_360": 180,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t05_05_stride60.nc",
+      "north": 90,
+      "sha256": "",
+      "south": 60,
+      "status": "not_downloaded",
+      "tile_id": "t05_05",
+      "west_0_360": 150
+    },
+    {
+      "east_0_360": 210,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t05_06_stride60.nc",
+      "north": 90,
+      "sha256": "",
+      "south": 60,
+      "status": "not_downloaded",
+      "tile_id": "t05_06",
+      "west_0_360": 180
+    },
+    {
+      "east_0_360": 240,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t05_07_stride60.nc",
+      "north": 90,
+      "sha256": "",
+      "south": 60,
+      "status": "not_downloaded",
+      "tile_id": "t05_07",
+      "west_0_360": 210
+    },
+    {
+      "east_0_360": 270,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t05_08_stride60.nc",
+      "north": 90,
+      "sha256": "",
+      "south": 60,
+      "status": "not_downloaded",
+      "tile_id": "t05_08",
+      "west_0_360": 240
+    },
+    {
+      "east_0_360": 300,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t05_09_stride60.nc",
+      "north": 90,
+      "sha256": "",
+      "south": 60,
+      "status": "not_downloaded",
+      "tile_id": "t05_09",
+      "west_0_360": 270
+    },
+    {
+      "east_0_360": 330,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t05_10_stride60.nc",
+      "north": 90,
+      "sha256": "",
+      "south": 60,
+      "status": "not_downloaded",
+      "tile_id": "t05_10",
+      "west_0_360": 300
+    },
+    {
+      "east_0_360": 360,
+      "file": "/tmp/pytest-of-root/pytest-41/test_assemble_requires_full_in0/missing/etopo_t05_11_stride60.nc",
+      "north": 90,
+      "sha256": "",
+      "south": 60,
+      "status": "not_downloaded",
+      "tile_id": "t05_11",
+      "west_0_360": 330
+    }
+  ],
+  "total_tiles": 72,
+  "validated_tiles": 0,
+  "warning": "Fracción de teselas no equivale a fracción de superficie terrestre emergida; aún no hay máscara tierra/océano ni score de Marte."
+}

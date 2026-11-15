@@ -1,0 +1,61 @@
+{
+  "available_sites": 2,
+  "limitations": [
+    "A 30 m por celda no se observan rocas, zanjas, obstáculos de 0,3 m ni microtopografía. Rutas orientativas, no transitabilidad certificada.",
+    "MOLA regional (~15 km por celda) no permite simular movilidad de rover. Se necesitan DEM marcianos locales de resolución métrica o submétrica para ese caso."
+  ],
+  "schema_version": "mars_analog_rover_manifest_v2.1",
+  "sites": [
+    {
+      "cell_size_x_m": 24.696,
+      "cell_size_y_m": 30.87,
+      "coordinate_system": "WGS84 geographic",
+      "display_name": "Argentina · P04",
+      "height": 128,
+      "id": "r026_c146_p04",
+      "lat_north_deg": -36.98222222222222,
+      "local_extent_km": [
+        3.14,
+        3.92
+      ],
+      "lon_west_deg": -67.69333333333333,
+      "max_elevation_m": 565.0,
+      "min_elevation_m": 531.0,
+      "nominal_native_resolution_arcsec": 1.0,
+      "obstacles_below_cell_resolution": "not_observable",
+      "planet": "Earth",
+      "simulation_level": "regional_reconnaissance_only",
+      "source": "NASA NASADEM_HGT.001 · processed local HGT mosaic",
+      "source_sha256": "32e751edcc813a7e6e6ff7d37e1559b3650cd18328d218d861cd5195b30dfbf5",
+      "status": "available",
+      "valid_fraction": 1.0,
+      "width": 128
+    },
+    {
+      "cell_size_x_m": 24.519,
+      "cell_size_y_m": 30.87,
+      "coordinate_system": "WGS84 geographic",
+      "display_name": "Argentina · P08",
+      "height": 128,
+      "id": "r026_c146_p08",
+      "lat_north_deg": -37.52194444444444,
+      "local_extent_km": [
+        3.11,
+        3.92
+      ],
+      "lon_west_deg": -67.69333333333333,
+      "max_elevation_m": 422.0,
+      "min_elevation_m": 371.0,
+      "nominal_native_resolution_arcsec": 1.0,
+      "obstacles_below_cell_resolution": "not_observable",
+      "planet": "Earth",
+      "simulation_level": "regional_reconnaissance_only",
+      "source": "NASA NASADEM_HGT.001 · processed local HGT mosaic",
+      "source_sha256": "9027c7448823d3c30ef0da0e4e36137e3342799fb523233f9b1763e73451860f",
+      "status": "available",
+      "valid_fraction": 1.0,
+      "width": 128
+    }
+  ],
+  "status": "regional_reconnaissance_only_not_rover_safety"
+}

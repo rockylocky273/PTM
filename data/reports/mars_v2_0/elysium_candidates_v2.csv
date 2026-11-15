@@ -1,0 +1,4 @@
+﻿id,lat,lon,rank,scale_ranks,method_ranks,volcanic_samples,glim_samples,leave_one_out,process_relation,validation
+r026_c146,-37,-67,6,"{""15km_17x17"": 2, ""30km_9x9"": 6, ""40km_7x7"": 16}","{""empirical_percentile_l1"": 7, ""original"": 6, ""robust_log_l2"": 5}",2,9,9/9,broad_volcanic_cartography_and_lithology_signal,not_validated
+r069_c067,49,135,8,"{""15km_17x17"": 47, ""30km_9x9"": 8, ""40km_7x7"": 1}","{""empirical_percentile_l1"": 8, ""original"": 8, ""robust_log_l2"": 6}",2,9,9/9,broad_volcanic_cartography_and_lithology_signal,not_validated
+r067_c038,45,77,19,"{""15km_17x17"": 28, ""30km_9x9"": 19, ""40km_7x7"": 4}","{""empirical_percentile_l1"": 17, ""original"": 19, ""robust_log_l2"": 12}",1,9,8/9,broad_volcanic_cartography_and_lithology_signal,not_validated

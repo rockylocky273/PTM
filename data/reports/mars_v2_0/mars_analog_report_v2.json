@@ -1,0 +1,450 @@
+{
+  "analog_accuracy": null,
+  "benchmark_summary": {
+    "accuracy_or_auc": null,
+    "direct_sites_missing_from_ranked_population": 3,
+    "direct_sites_represented_in_ranked_population": 1,
+    "direct_sites_with_mars_profile_out_of_domain": 2,
+    "direct_target_process_analogues": 4,
+    "environmental_references_not_misused": 1,
+    "external_cases": 9,
+    "per_status": {
+      "blocked_process_scope_contrast": 2,
+      "external_site_not_in_screened_population": 3,
+      "out_of_scope_environmental_reference": 1,
+      "reference_without_specific_mars_profile": 2,
+      "topography_outside_reference_domain": 1
+    },
+    "scope_contrasts_blocked": 2,
+    "validated_analogs": 0
+  },
+  "climate_v203": {
+    "complete": 25,
+    "download_attempts": 0,
+    "download_failures": [],
+    "missing": 0,
+    "partial": 0,
+    "source": "NASA POWER monthly point; contexto terrestre no extrapolado a toda la celda",
+    "source_files": [
+      {
+        "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\..\\mars_analog_engine_v1_3_3\\data\\results\\environment_sample.csv",
+        "sha256": "5cadfb7248034b5ec45b19b9b324e44bc62709c21dc3f1c6c6625c2721073177"
+      },
+      {
+        "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\..\\mars_analog_engine_v1_3_3\\data\\results\\environment_context.csv",
+        "sha256": "27f7c40d5960da2195fafbd38e7ce995636d864fa30a155f45b287ba68dde144"
+      }
+    ]
+  },
+  "combined_similarity_score": null,
+  "continuous_terrain_v205": {
+    "caption": "Relieve mundial continuo ETOPO. La resolución de elevación no aumenta con zoom. Océanos sin altura en este mosaico enmascarado. Solo p04 y p08 poseen NASADEM local.",
+    "grid_shape": [
+      1080,
+      2160
+    ],
+    "height_png_bytes": 1313831,
+    "land_elevation_cells": 772076,
+    "nominal_resolution_arcmin": 10.0,
+    "raster_lat_north_edge_deg": 89.925,
+    "raster_lon_west_edge_deg": -180.075,
+    "reason": null,
+    "schema_version": "mars_analog_continuous_earth_v2.0.5",
+    "source": "NOAA ETOPO 2022 land_elevation_m",
+    "source_path": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\..\\mars_analog_engine_v1_3_3\\data\\processed\\earth_global_land.nc",
+    "source_sha256": "cde2288576e57e8f2196323986dde3918662f40f4724073f1c848d5c08d45317",
+    "status": "available",
+    "texture_png_bytes": 1650322
+  },
+  "earth_climate_context": [
+    {
+      "air_temp_mean_c": 16.311,
+      "earth_region_id": "r026_c146",
+      "precip_annual_mean_mm": 488.391,
+      "relative_humidity_mean_pct": 52.675,
+      "seasonal_air_temp_range_c": 18.98
+    },
+    {
+      "air_temp_mean_c": 4.332,
+      "earth_region_id": "r068_c061",
+      "precip_annual_mean_mm": 589.954,
+      "relative_humidity_mean_pct": 68.958,
+      "seasonal_air_temp_range_c": 41.573
+    }
+  ],
+  "earth_mars_correspondences": 150,
+  "full_sensitivity_v204": {
+    "counts": {
+      "all_methods_top25": 19,
+      "all_scales_top25": 6,
+      "at_least_one_missing_scale": 1,
+      "top25_in_all_60_weight_scenarios": 5,
+      "volcanic_glim_observed": 4
+    },
+    "coverage": 25,
+    "profile": "elysium_planitia",
+    "report_sha256": "4054e36659c5e818dd1d33c0549b3249c25d5a73b8ed89c204c22c3f89123c29",
+    "weight_scenarios": 60
+  },
+  "glim_regions": 25,
+  "individual_audits": 25,
+  "limitations": [
+    "Los rankings topográficos no son comprobaciones de analogía geológica.",
+    "GLiM y SIM 3292 son productos cartográficos con taxonomías y resoluciones distintas; sus observaciones puntuales no son fracciones de área.",
+    "La geología marciana se basa en nueve consultas por perfil, no en cartografía mineralógica local.",
+    "Las 25 regiones analizadas para Elysium fueron preseleccionadas; la sensibilidad interna no constituye validación externa independiente.",
+    "Los datos NASA POWER son contexto del ambiente terrestre, nunca equivalencia climática marciana.",
+    "Los perfiles con características fuera de rango están marcados; una buena posición no elimina la extrapolación.",
+    "La auditoría externa contiene nueve referencias y no permite calcular accuracy, AUC o probabilidad de analogía.",
+    "Los centros de celdas de 2 grados no son coordenadas de afloramientos, bases, muestras ni ubicaciones operativas.",
+    "Ningún resultado certifica seguridad de rover, aterrizaje, instalación o misión."
+  ],
+  "lunar_atlas": {
+    "maps_available": 6,
+    "regions": 6,
+    "source": {
+      "availability": true,
+      "downloaded_now": false,
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\..\\mars_analog_engine_v1_3_3\\data\\raw\\moon\\ldem_4.img",
+      "pixel_interpretation": "signed int16 little endian; 0.5 m/count; height above lunar 1737.4 km sphere",
+      "reason": null,
+      "sha256": "c04632eba6449af49e3108ed7c25b3b1c450600abd3690df4fc815853a1af476",
+      "url": "https://pds-geosciences.wustl.edu/lro/lro-l-lola-3-rdr-v1/lrolol_1xxx/data/lola_gdr/cylindrical/img/ldem_4.img"
+    }
+  },
+  "mars_profiles": 6,
+  "mars_topographic_atlas": {
+    "maps_available": 6,
+    "profiles": 6,
+    "source_files": {
+      "mars_profiles_manifest": {
+        "path": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\..\\mars_analog_engine_v1_3_3\\data\\catalog\\mars_profiles_v1_2.json",
+        "sha256": "d3a9cdb5978521eda51163d6ab57d5b6b4c6fa2f6609bb9ce053aa3c97d921de"
+      },
+      "mola_georeferenced": {
+        "path": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\..\\mars_analog_engine_v1_3_3\\data\\processed\\mola_georeferenced.nc",
+        "sha256": "4c200e6a623b1c9c39e6ec6b3b6d5d1957c00a75cdbfe9d29c09190152672282"
+      }
+    }
+  },
+  "outputs": {
+    "atlas_locations_csv": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\data\\reports\\mars_v2_0\\elysium_candidates_geographic_atlas_v2.csv",
+      "sha256": "a7b88e61bb5009b2ff8b769648f28922cd4172e337c64a89d1b1edbd03fa315b"
+    },
+    "audits_csv": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\data\\reports\\mars_v2_0\\candidate_audits_v203.csv",
+      "sha256": "bfa225e2dafd4206dc99e04f3947f88852ae36bad502a3c286305c8fe4d7d516"
+    },
+    "audits_csv_v204": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\data\\reports\\mars_v2_0\\candidate_audits_v204.csv",
+      "sha256": "bfa225e2dafd4206dc99e04f3947f88852ae36bad502a3c286305c8fe4d7d516"
+    },
+    "audits_json": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\data\\reports\\mars_v2_0\\candidate_audits_v203.json",
+      "sha256": "c678aaf96e2a2383d4e714a1dc866a5c02eeb183ffce4819dd187fb998f37bcf"
+    },
+    "audits_json_v204": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\data\\reports\\mars_v2_0\\candidate_audits_v204.json",
+      "sha256": "c678aaf96e2a2383d4e714a1dc866a5c02eeb183ffce4819dd187fb998f37bcf"
+    },
+    "benchmarks_csv": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\data\\reports\\mars_v2_0\\external_references_v2.csv",
+      "sha256": "146fd97f30b0e91cf9d62c4755132de31498a0537f56038a81e042edd345be0c"
+    },
+    "candidates_csv": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\data\\reports\\mars_v2_0\\elysium_candidates_v2.csv",
+      "sha256": "f14bef4326498e855a17425b80de526ffdb3912df0750726a4bebdd93b1e4cd4"
+    },
+    "climate_csv": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\data\\reports\\mars_v2_0\\candidate_climate_v203.csv",
+      "sha256": "1a169fc9f68fc869fb74f6b465e6f9d33adc2afcbc33a198f01f0414f4d74a45"
+    },
+    "dashboard_html": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\data\\reports\\mars_v2_0\\mars_analog_dashboard_v2.html",
+      "sha256": "da795aea8bd4e8434729517552f63901278255d2c3c456495371debf2875ee3d"
+    },
+    "mars_topography_csv": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\data\\reports\\mars_v2_0\\mars_topography_profiles_v2.csv",
+      "sha256": "d268bae632022bd536550479bcc5f45a403150301c0d17f29d4f2f10b47486ef"
+    },
+    "moon_regions_csv": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\data\\reports\\mars_v2_0\\lunar_regions_v203.csv",
+      "sha256": "1c356d99cfd755dfb8d6b2afaf3c42157bfab3c9a74df75f7d9d6870edfdc17f"
+    },
+    "profiles_csv": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\data\\reports\\mars_v2_0\\mars_profiles_v2.csv",
+      "sha256": "d2a59be36c4db749c23e94966fcea4de972a8f985bceb957364bdc12eb69ba66"
+    },
+    "report_markdown": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\data\\reports\\mars_v2_0\\mars_analog_report_v2.md",
+      "sha256": "5f49f4fac5704faeeea12093aeac6d0434e7717b6af9dbb099a7dbf2a3bf4167"
+    },
+    "rover_manifest": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\data\\reports\\mars_v2_0\\rover_terrain_manifest_v21.json",
+      "sha256": "5e52d7f1dd5b840dcb94de649c621028fe9c6dc62b5ad91d5a534484c3012cee"
+    },
+    "world_candidates_csv": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\data\\reports\\mars_v2_0\\world_candidates_v203.csv",
+      "sha256": "79adfb8cc21d1f295a248b8d35dfaf8a99e8759d09d4160a15267e0c7c60049a"
+    }
+  },
+  "rover_v21": {
+    "available_sites": 2,
+    "resolution_warning": "A 30 m por celda no se observan rocas, zanjas, obstáculos de 0,3 m ni microtopografía. Rutas orientativas, no transitabilidad certificada."
+  },
+  "rover_v22": {
+    "elevation_rescaled": false,
+    "physical_route_unchanged": true,
+    "rendering": "offline_webgl2_native_dem",
+    "small_obstacles_resolved": false,
+    "views": [
+      "2d_route_planning",
+      "3d_orbit",
+      "3d_aerial",
+      "3d_follow"
+    ]
+  },
+  "schema_version": "mars_analog_integrated_presentation_v2.2",
+  "source_reports": {
+    "benchmark": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\..\\mars_analog_engine_v1_3_3\\data\\reports\\mars_external_benchmark_v1_3_3.json",
+      "sha256": "bb3b718e058eda93ecd998fc1f8eac352ea6960999422671136694132821242e"
+    },
+    "correspondence": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\..\\mars_analog_engine_v1_3_3\\data\\reports\\mars_geology_correspondence_v1_3_1.json",
+      "sha256": "0e3e74ba5dfc9f079a4b89d2f05a9e4f6607cb06bed2e63df9202aefca96a184"
+    },
+    "domain": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\..\\mars_analog_engine_v1_3_3\\data\\reports\\mars_domain_v1_2_2.json",
+      "sha256": "407383c66cea3d1c58e75a529a201037d390470794ee262d33e984133eef4e8e"
+    },
+    "mars_geology": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\..\\mars_analog_engine_v1_3_3\\data\\reports\\mars_geology_points_v1_2_2.json",
+      "sha256": "839382b0c67d6112d7c8837fbe61843f8bdcd9a2ef3b7cf993ae3c909feb2754"
+    },
+    "multicriteria": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\..\\mars_analog_engine_v1_3_3\\data\\reports\\mars_multicriteria_v1_3_0.json",
+      "sha256": "25993c972a7f06b727b4c0cece64d7fc64839e06ead9b960f273ee927edad359"
+    },
+    "sensitivity_all_v204": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\..\\mars_analog_engine_v2_0_4\\data\\reports\\mars_v2_0\\candidate_sensitivity_v204.json",
+      "sha256": "4054e36659c5e818dd1d33c0549b3249c25d5a73b8ed89c204c22c3f89123c29"
+    },
+    "uncertainty": {
+      "file": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\..\\mars_analog_engine_v1_3_3\\data\\reports\\mars_uncertainty_v1_3_2.json",
+      "sha256": "08d166446a1b25098d1771e6b0f295292c24477a4621064bd228380bd448f210"
+    }
+  },
+  "status": "integrated_exploratory_dashboard_not_scientific_analog_validation",
+  "three_way_elysium_candidates": [
+    {
+      "geology_strength": "process_hypothesis_only",
+      "glim_samples": 9,
+      "id": "r026_c146",
+      "lat": -37,
+      "leave_one_out": "9/9",
+      "lithology_counts": {
+        "Basic volcanic rocks": 2,
+        "Unconsolidated sediments": 7
+      },
+      "lon": -67,
+      "method_ranks": {
+        "empirical_percentile_l1": 7,
+        "original": 6,
+        "robust_log_l2": 5
+      },
+      "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+      "rank": 6,
+      "scale_ranks": {
+        "15km_17x17": 2,
+        "30km_9x9": 6,
+        "40km_7x7": 16
+      },
+      "top_k_membership": {
+        "10": {
+          "methods_evaluated": 3,
+          "methods_present": 3,
+          "scales_evaluated": 3,
+          "scales_missing": [],
+          "scales_present": 2,
+          "weight_draws_present": 54,
+          "weight_draws_total": 60
+        },
+        "25": {
+          "methods_evaluated": 3,
+          "methods_present": 3,
+          "scales_evaluated": 3,
+          "scales_missing": [],
+          "scales_present": 3,
+          "weight_draws_present": 60,
+          "weight_draws_total": 60
+        },
+        "50": {
+          "methods_evaluated": 3,
+          "methods_present": 3,
+          "scales_evaluated": 3,
+          "scales_missing": [],
+          "scales_present": 3,
+          "weight_draws_present": 60,
+          "weight_draws_total": 60
+        }
+      },
+      "validation": "not_validated",
+      "volcanic_samples": 2,
+      "weight_summary": {
+        "max": 13,
+        "median": 6.0,
+        "min": 4,
+        "scenarios": 60,
+        "seed": 2026
+      }
+    },
+    {
+      "geology_strength": "process_hypothesis_only",
+      "glim_samples": 9,
+      "id": "r069_c067",
+      "lat": 49,
+      "leave_one_out": "9/9",
+      "lithology_counts": {
+        "Mixed sedimentary rocks": 2,
+        "Pyroclastics": 2,
+        "Unconsolidated sediments": 5
+      },
+      "lon": 135,
+      "method_ranks": {
+        "empirical_percentile_l1": 8,
+        "original": 8,
+        "robust_log_l2": 6
+      },
+      "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+      "rank": 8,
+      "scale_ranks": {
+        "15km_17x17": 47,
+        "30km_9x9": 8,
+        "40km_7x7": 1
+      },
+      "top_k_membership": {
+        "10": {
+          "methods_evaluated": 3,
+          "methods_present": 3,
+          "scales_evaluated": 3,
+          "scales_missing": [],
+          "scales_present": 2,
+          "weight_draws_present": 36,
+          "weight_draws_total": 60
+        },
+        "25": {
+          "methods_evaluated": 3,
+          "methods_present": 3,
+          "scales_evaluated": 3,
+          "scales_missing": [],
+          "scales_present": 2,
+          "weight_draws_present": 59,
+          "weight_draws_total": 60
+        },
+        "50": {
+          "methods_evaluated": 3,
+          "methods_present": 3,
+          "scales_evaluated": 3,
+          "scales_missing": [],
+          "scales_present": 3,
+          "weight_draws_present": 60,
+          "weight_draws_total": 60
+        }
+      },
+      "validation": "not_validated",
+      "volcanic_samples": 2,
+      "weight_summary": {
+        "max": 30,
+        "median": 10.0,
+        "min": 8,
+        "scenarios": 60,
+        "seed": 2026
+      }
+    },
+    {
+      "geology_strength": "process_hypothesis_only",
+      "glim_samples": 9,
+      "id": "r067_c038",
+      "lat": 45,
+      "leave_one_out": "8/9",
+      "lithology_counts": {
+        "Acid plutonic rocks": 1,
+        "Intermediate volcanic rocks": 1,
+        "Siliciclastic sedimentary rocks": 1,
+        "Unconsolidated sediments": 6
+      },
+      "lon": 77,
+      "method_ranks": {
+        "empirical_percentile_l1": 17,
+        "original": 19,
+        "robust_log_l2": 12
+      },
+      "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+      "rank": 19,
+      "scale_ranks": {
+        "15km_17x17": 28,
+        "30km_9x9": 19,
+        "40km_7x7": 4
+      },
+      "top_k_membership": {
+        "10": {
+          "methods_evaluated": 3,
+          "methods_present": 0,
+          "scales_evaluated": 3,
+          "scales_missing": [],
+          "scales_present": 1,
+          "weight_draws_present": 0,
+          "weight_draws_total": 60
+        },
+        "25": {
+          "methods_evaluated": 3,
+          "methods_present": 3,
+          "scales_evaluated": 3,
+          "scales_missing": [],
+          "scales_present": 2,
+          "weight_draws_present": 51,
+          "weight_draws_total": 60
+        },
+        "50": {
+          "methods_evaluated": 3,
+          "methods_present": 3,
+          "scales_evaluated": 3,
+          "scales_missing": [],
+          "scales_present": 3,
+          "weight_draws_present": 60,
+          "weight_draws_total": 60
+        }
+      },
+      "validation": "not_validated",
+      "volcanic_samples": 1,
+      "weight_summary": {
+        "max": 35,
+        "median": 19.5,
+        "min": 14,
+        "scenarios": 60,
+        "seed": 2026
+      }
+    }
+  ],
+  "topographic_atlas": {
+    "candidate_regions": 25,
+    "local_sites": 2,
+    "map_source_status": "global_etopo_available",
+    "source_files": {
+      "global_etopo": {
+        "path": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\..\\mars_analog_engine_v1_3_3\\data\\processed\\earth_global_land.nc",
+        "sha256": "cde2288576e57e8f2196323986dde3918662f40f4724073f1c848d5c08d45317"
+      },
+      "r026_c146_p04": {
+        "path": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\..\\mars_analog_engine_v1_3_3\\data\\processed\\nasadem_argentina_p04.nc",
+        "sha256": "32e751edcc813a7e6e6ff7d37e1559b3650cd18328d218d861cd5195b30dfbf5"
+      },
+      "r026_c146_p08": {
+        "path": "C:\\Users\\HP\\Downloads\\mars_analog_engine_v2_2\\..\\mars_analog_engine_v1_3_3\\data\\processed\\nasadem_argentina_p08.nc",
+        "sha256": "9027c7448823d3c30ef0da0e4e36137e3342799fb523233f9b1763e73451860f"
+      }
+    }
+  }
+}

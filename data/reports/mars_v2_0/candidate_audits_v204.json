@@ -1,0 +1,2519 @@
+{
+  "audits": [
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 37,
+      "center_lon": -79,
+      "climate": {
+        "air_temp_mean_c": 14.918,
+        "climate_descriptor": "Precipitación anual elevada",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 1201.073,
+        "relative_humidity_mean_pct": 75.999,
+        "seasonal_air_temp_range_c": 24.159,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r063_c140",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Estados Unidos",
+      "elevation_range_m": [
+        -8.4,
+        1607.7
+      ],
+      "findings": [
+        "Puesto 1 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 1,011 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Metamorphics (7 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual elevada.",
+        "Sensibilidad de escala evaluada para este candidato: 11, 1, 17.",
+        "Sensibilidad de método: original 1, Log-L2 1, percentil L1 1.",
+        "Perturbación de pesos: en el top 25 en 60/60 escenarios; puesto mediano 1.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r063_c140",
+      "individual_multiscale_tested": true,
+      "label": "Estados Unidos · sector de los Apalaches",
+      "lithology_counts": {
+        "Metamorphics": 7,
+        "Siliciclastic sedimentary rocks": 2
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 1,
+        "original": 1,
+        "robust_log_l2": 1
+      },
+      "relief_context_m": 1011.0,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 11,
+        "30km_9x9": 1,
+        "40km_7x7": 17
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 1,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 1081,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 1081,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 1005,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 1081,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 979,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 1,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 60
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 39,
+      "center_lon": -81,
+      "climate": {
+        "air_temp_mean_c": 12.848,
+        "climate_descriptor": "Precipitación anual elevada",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 1148.576,
+        "relative_humidity_mean_pct": 77.146,
+        "seasonal_air_temp_range_c": 25.084,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r064_c139",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Estados Unidos",
+      "elevation_range_m": [
+        -6.3,
+        1607.7
+      ],
+      "findings": [
+        "Puesto 2 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 928 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Siliciclastic sedimentary rocks (9 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual elevada.",
+        "Sensibilidad de escala evaluada para este candidato: 37, 2, 5.",
+        "Sensibilidad de método: original 2, Log-L2 2, percentil L1 3.",
+        "Perturbación de pesos: en el top 25 en 60/60 escenarios; puesto mediano 3.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r064_c139",
+      "individual_multiscale_tested": true,
+      "label": "Estados Unidos · sector de los Apalaches",
+      "lithology_counts": {
+        "Siliciclastic sedimentary rocks": 9
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 3,
+        "original": 2,
+        "robust_log_l2": 2
+      },
+      "relief_context_m": 928.3,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 37,
+        "30km_9x9": 2,
+        "40km_7x7": 5
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 2,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 1017,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 1017,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 1142,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 1017,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 903,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 2,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 60
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 65,
+      "center_lon": 125,
+      "climate": {
+        "air_temp_mean_c": -9.362,
+        "climate_descriptor": "Precipitación anual baja; temperatura media bajo 0 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 472.963,
+        "relative_humidity_mean_pct": 86.824,
+        "seasonal_air_temp_range_c": 56.96,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r077_c062",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Rusia",
+      "elevation_range_m": [
+        18.2,
+        1893.0
+      ],
+      "findings": [
+        "Puesto 3 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 1,393 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Siliciclastic sedimentary rocks (8 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual baja; temperatura media bajo 0 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 25, 3, 3.",
+        "Sensibilidad de método: original 3, Log-L2 3, percentil L1 5.",
+        "Perturbación de pesos: en el top 25 en 60/60 escenarios; puesto mediano 3.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r077_c062",
+      "individual_multiscale_tested": true,
+      "label": "Rusia · Siberia",
+      "lithology_counts": {
+        "Mixed sedimentary rocks": 1,
+        "Siliciclastic sedimentary rocks": 8
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 5,
+        "original": 3,
+        "robust_log_l2": 3
+      },
+      "relief_context_m": 1393.1,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 25,
+        "30km_9x9": 3,
+        "40km_7x7": 3
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 3,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 1091,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 1091,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 984,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 1091,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 990,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 3,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 60
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 3,
+      "center_lon": 11,
+      "climate": {
+        "air_temp_mean_c": 23.536,
+        "climate_descriptor": "Precipitación anual elevada; temperatura media superior a 20 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 1537.928,
+        "relative_humidity_mean_pct": 86.647,
+        "seasonal_air_temp_range_c": 2.644,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r046_c005",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Camerún",
+      "elevation_range_m": [
+        -7.4,
+        2905.8
+      ],
+      "findings": [
+        "Puesto 4 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 1,160 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Metamorphics (9 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual elevada; temperatura media superior a 20 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 81, 4, None.",
+        "Sensibilidad de método: original 4, Log-L2 4, percentil L1 4.",
+        "Perturbación de pesos: en el top 25 en 60/60 escenarios; puesto mediano 4.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r046_c005",
+      "individual_multiscale_tested": true,
+      "label": "Camerún",
+      "lithology_counts": {
+        "Metamorphics": 9
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 4,
+        "original": 4,
+        "robust_log_l2": 4
+      },
+      "relief_context_m": 1160.0,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 81,
+        "30km_9x9": 4,
+        "40km_7x7": null
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_not_observed_in_earth_samples",
+          "profile": "elysium_planitia",
+          "rank": 4,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 988,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_not_observed_in_earth_samples",
+          "profile": "jezero_entorno",
+          "rank": 988,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 1210,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_not_observed_in_earth_samples",
+          "profile": "olympus_mons",
+          "rank": 988,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_not_observed_in_earth_samples",
+          "profile": "syrtis_major_planum",
+          "rank": 861,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 4,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 60
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 61,
+      "center_lon": 61,
+      "climate": {
+        "air_temp_mean_c": -0.81,
+        "climate_descriptor": "Precipitación anual intermedia; temperatura media bajo 0 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 776.218,
+        "relative_humidity_mean_pct": 91.494,
+        "seasonal_air_temp_range_c": 37.228,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r075_c030",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Rusia",
+      "elevation_range_m": [
+        10.7,
+        1120.3
+      ],
+      "findings": [
+        "Puesto 5 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 607 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Mixed sedimentary rocks (5 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual intermedia; temperatura media bajo 0 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 33, 5, 76.",
+        "Sensibilidad de método: original 5, Log-L2 7, percentil L1 2.",
+        "Perturbación de pesos: en el top 25 en 59/60 escenarios; puesto mediano 5.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r075_c030",
+      "individual_multiscale_tested": true,
+      "label": "Rusia · región de los Urales",
+      "lithology_counts": {
+        "Basic plutonic rocks": 3,
+        "Mixed sedimentary rocks": 5,
+        "Siliciclastic sedimentary rocks": 1
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 2,
+        "original": 5,
+        "robust_log_l2": 7
+      },
+      "relief_context_m": 607.2,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 33,
+        "30km_9x9": 5,
+        "40km_7x7": 76
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_plutonic_only_or_other",
+          "profile": "elysium_planitia",
+          "rank": 5,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 1141,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_plutonic_only_or_other",
+          "profile": "jezero_entorno",
+          "rank": 1141,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 938,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_plutonic_only_or_other",
+          "profile": "olympus_mons",
+          "rank": 1141,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_plutonic_only_or_other",
+          "profile": "syrtis_major_planum",
+          "rank": 1052,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 5,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 59
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": -37,
+      "center_lon": -67,
+      "climate": {
+        "air_temp_mean_c": 16.311,
+        "climate_descriptor": "Precipitación anual baja",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 488.391,
+        "relative_humidity_mean_pct": 52.675,
+        "seasonal_air_temp_range_c": 18.98,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r026_c146",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Argentina",
+      "elevation_range_m": [
+        -63.9,
+        4802.7
+      ],
+      "findings": [
+        "Puesto 6 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 2,903 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Unconsolidated sediments (7 puntos).",
+        "Se observaron 2 puntos de clases volcánicas o piroclásticas, sin estimar proporciones de superficie.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual baja.",
+        "Sensibilidad de escala evaluada para este candidato: 2, 6, 16.",
+        "Sensibilidad de método: original 6, Log-L2 5, percentil L1 7.",
+        "Perturbación de pesos: en el top 25 en 60/60 escenarios; puesto mediano 6.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 9/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "broad_volcanic_observed",
+      "glim_leave_one_out_preserved": 9,
+      "id": "r026_c146",
+      "individual_multiscale_tested": true,
+      "label": "Argentina · sector volcánico estudiado",
+      "lithology_counts": {
+        "Basic volcanic rocks": 2,
+        "Unconsolidated sediments": 7
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 7,
+        "original": 6,
+        "robust_log_l2": 5
+      },
+      "relief_context_m": 2903.1,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 2,
+        "30km_9x9": 6,
+        "40km_7x7": 16
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+          "profile": "elysium_planitia",
+          "rank": 6,
+          "triage": "targeted_volcanic_process_hypothesis_followup"
+        },
+        {
+          "process_relation": "earth_volcanic_mars_volcanic_unit_not_sampled",
+          "profile": "gale_entorno",
+          "rank": 1114,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+          "profile": "jezero_entorno",
+          "rank": 1114,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "earth_volcanic_mars_volcanic_unit_not_sampled",
+          "profile": "meridiani_planum",
+          "rank": 939,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+          "profile": "olympus_mons",
+          "rank": 1114,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+          "profile": "syrtis_major_planum",
+          "rank": 1021,
+          "triage": "volcanic_signal_outside_topographic_shortlist"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 6,
+      "volcanic_observed_points": 2,
+      "weight_top25_of_60": 60
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 61,
+      "center_lon": -117,
+      "climate": {
+        "air_temp_mean_c": -2.925,
+        "climate_descriptor": "Precipitación anual baja; temperatura media bajo 0 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 473.863,
+        "relative_humidity_mean_pct": 85.265,
+        "seasonal_air_temp_range_c": 42.777,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r075_c121",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Canadá",
+      "elevation_range_m": [
+        127.1,
+        961.4
+      ],
+      "findings": [
+        "Puesto 7 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 674 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Mixed sedimentary rocks (9 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual baja; temperatura media bajo 0 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 32, 7, 636.",
+        "Sensibilidad de método: original 7, Log-L2 9, percentil L1 6.",
+        "Perturbación de pesos: en el top 25 en 59/60 escenarios; puesto mediano 9.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r075_c121",
+      "individual_multiscale_tested": true,
+      "label": "Canadá · noroeste canadiense",
+      "lithology_counts": {
+        "Mixed sedimentary rocks": 9
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 6,
+        "original": 7,
+        "robust_log_l2": 9
+      },
+      "relief_context_m": 674.3,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 32,
+        "30km_9x9": 7,
+        "40km_7x7": 636
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 7,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 1227,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 1227,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 748,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 1227,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 1155,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 7,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 59
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 49,
+      "center_lon": 135,
+      "climate": {
+        "air_temp_mean_c": 1.203,
+        "climate_descriptor": "Precipitación anual intermedia; temperatura media inferior a 10 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 797.282,
+        "relative_humidity_mean_pct": 85.47,
+        "seasonal_air_temp_range_c": 44.271,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r069_c067",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Rusia",
+      "elevation_range_m": [
+        8.1,
+        1866.7
+      ],
+      "findings": [
+        "Puesto 8 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 1,203 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Unconsolidated sediments (5 puntos).",
+        "Se observaron 2 puntos de clases volcánicas o piroclásticas, sin estimar proporciones de superficie.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual intermedia; temperatura media inferior a 10 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 47, 8, 1.",
+        "Sensibilidad de método: original 8, Log-L2 6, percentil L1 8.",
+        "Perturbación de pesos: en el top 25 en 59/60 escenarios; puesto mediano 10.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 9/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "broad_volcanic_observed",
+      "glim_leave_one_out_preserved": 9,
+      "id": "r069_c067",
+      "individual_multiscale_tested": true,
+      "label": "Rusia · Extremo Oriente ruso · observaciones piroclásticas",
+      "lithology_counts": {
+        "Mixed sedimentary rocks": 2,
+        "Pyroclastics": 2,
+        "Unconsolidated sediments": 5
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 8,
+        "original": 8,
+        "robust_log_l2": 6
+      },
+      "relief_context_m": 1202.6,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 47,
+        "30km_9x9": 8,
+        "40km_7x7": 1
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+          "profile": "elysium_planitia",
+          "rank": 8,
+          "triage": "targeted_volcanic_process_hypothesis_followup"
+        },
+        {
+          "process_relation": "earth_volcanic_mars_volcanic_unit_not_sampled",
+          "profile": "gale_entorno",
+          "rank": 1064,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+          "profile": "jezero_entorno",
+          "rank": 1064,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "earth_volcanic_mars_volcanic_unit_not_sampled",
+          "profile": "meridiani_planum",
+          "rank": 1038,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+          "profile": "olympus_mons",
+          "rank": 1064,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+          "profile": "syrtis_major_planum",
+          "rank": 960,
+          "triage": "volcanic_signal_outside_topographic_shortlist"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 8,
+      "volcanic_observed_points": 2,
+      "weight_top25_of_60": 59
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 27,
+      "center_lon": 7,
+      "climate": {
+        "air_temp_mean_c": 24.366,
+        "climate_descriptor": "Precipitación anual muy baja; temperatura media superior a 20 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 16.618,
+        "relative_humidity_mean_pct": 24.545,
+        "seasonal_air_temp_range_c": 23.621,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r058_c003",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Argelia",
+      "elevation_range_m": [
+        212.0,
+        2048.1
+      ],
+      "findings": [
+        "Puesto 9 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 1,250 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Mixed sedimentary rocks (4 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual muy baja; temperatura media superior a 20 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 62, 9, 12.",
+        "Sensibilidad de método: original 9, Log-L2 11, percentil L1 11.",
+        "Perturbación de pesos: en el top 25 en 57/60 escenarios; puesto mediano 8.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r058_c003",
+      "individual_multiscale_tested": true,
+      "label": "Argelia",
+      "lithology_counts": {
+        "Mixed sedimentary rocks": 4,
+        "Siliciclastic sedimentary rocks": 1,
+        "Unconsolidated sediments": 4
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 11,
+        "original": 9,
+        "robust_log_l2": 11
+      },
+      "relief_context_m": 1249.6,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 62,
+        "30km_9x9": 9,
+        "40km_7x7": 12
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 9,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 959,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 959,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 1271,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 959,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 819,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 9,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 57
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 9,
+      "center_lon": -67,
+      "climate": {
+        "air_temp_mean_c": 29.165,
+        "climate_descriptor": "Precipitación anual intermedia; temperatura media superior a 20 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 649.638,
+        "relative_humidity_mean_pct": 63.066,
+        "seasonal_air_temp_range_c": 2.467,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r049_c146",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Venezuela",
+      "elevation_range_m": [
+        -21.9,
+        4171.6
+      ],
+      "findings": [
+        "Puesto 10 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 1,486 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Unconsolidated sediments (4 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual intermedia; temperatura media superior a 20 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 8, 10, 237.",
+        "Sensibilidad de método: original 10, Log-L2 10, percentil L1 10.",
+        "Perturbación de pesos: en el top 25 en 55/60 escenarios; puesto mediano 11.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r049_c146",
+      "individual_multiscale_tested": true,
+      "label": "Venezuela",
+      "lithology_counts": {
+        "Mixed sedimentary rocks": 3,
+        "Siliciclastic sedimentary rocks": 2,
+        "Unconsolidated sediments": 4
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 10,
+        "original": 10,
+        "robust_log_l2": 10
+      },
+      "relief_context_m": 1486.0,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 8,
+        "30km_9x9": 10,
+        "40km_7x7": 237
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 10,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 1153,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 1153,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 975,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 1153,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 1066,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 10,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 55
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": -31,
+      "center_lon": -63,
+      "climate": {
+        "air_temp_mean_c": 19.561,
+        "climate_descriptor": "Precipitación anual intermedia",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 793.219,
+        "relative_humidity_mean_pct": 64.618,
+        "seasonal_air_temp_range_c": 15.757,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r029_c148",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Argentina",
+      "elevation_range_m": [
+        0.9,
+        3871.0
+      ],
+      "findings": [
+        "Puesto 11 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 1,510 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Siliciclastic sedimentary rocks (5 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual intermedia.",
+        "Sensibilidad de escala evaluada para este candidato: 3, 11, 125.",
+        "Sensibilidad de método: original 11, Log-L2 8, percentil L1 12.",
+        "Perturbación de pesos: en el top 25 en 55/60 escenarios; puesto mediano 11.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r029_c148",
+      "individual_multiscale_tested": true,
+      "label": "Argentina",
+      "lithology_counts": {
+        "Siliciclastic sedimentary rocks": 5,
+        "Unconsolidated sediments": 4
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 12,
+        "original": 11,
+        "robust_log_l2": 8
+      },
+      "relief_context_m": 1510.4,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 3,
+        "30km_9x9": 11,
+        "40km_7x7": 125
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 11,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 1201,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 1201,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 914,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 1201,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 1124,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 11,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 55
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 51,
+      "center_lon": 17,
+      "climate": {
+        "air_temp_mean_c": 9.988,
+        "climate_descriptor": "Precipitación anual intermedia; temperatura media inferior a 10 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 635.059,
+        "relative_humidity_mean_pct": 77.91,
+        "seasonal_air_temp_range_c": 21.648,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r070_c008",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Polonia",
+      "elevation_range_m": [
+        -4.0,
+        1979.2
+      ],
+      "findings": [
+        "Puesto 12 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 1,022 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Unconsolidated sediments (6 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual intermedia; temperatura media inferior a 10 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 63, 12, 28.",
+        "Sensibilidad de método: original 12, Log-L2 23, percentil L1 9.",
+        "Perturbación de pesos: en el top 25 en 50/60 escenarios; puesto mediano 12.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r070_c008",
+      "individual_multiscale_tested": true,
+      "label": "Polonia",
+      "lithology_counts": {
+        "Carbonate sedimentary rocks": 1,
+        "Metamorphics": 1,
+        "Siliciclastic sedimentary rocks": 1,
+        "Unconsolidated sediments": 6
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 9,
+        "original": 12,
+        "robust_log_l2": 23
+      },
+      "relief_context_m": 1022.5,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 63,
+        "30km_9x9": 12,
+        "40km_7x7": 28
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 12,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 1208,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 1208,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 719,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 1208,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 1132,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 12,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 50
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 15,
+      "center_lon": 21,
+      "climate": {
+        "air_temp_mean_c": 27.309,
+        "climate_descriptor": "Precipitación anual baja; temperatura media superior a 20 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 479.264,
+        "relative_humidity_mean_pct": 31.81,
+        "seasonal_air_temp_range_c": 12.011,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r052_c010",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Chad",
+      "elevation_range_m": [
+        164.6,
+        2813.9
+      ],
+      "findings": [
+        "Puesto 13 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 934 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Unconsolidated sediments (5 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual baja; temperatura media superior a 20 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 1, 13, 9.",
+        "Sensibilidad de método: original 13, Log-L2 13, percentil L1 16.",
+        "Perturbación de pesos: en el top 25 en 59/60 escenarios; puesto mediano 12.5.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r052_c010",
+      "individual_multiscale_tested": true,
+      "label": "Chad",
+      "lithology_counts": {
+        "Metamorphics": 4,
+        "Unconsolidated sediments": 5
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 16,
+        "original": 13,
+        "robust_log_l2": 13
+      },
+      "relief_context_m": 934.3,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 1,
+        "30km_9x9": 13,
+        "40km_7x7": 9
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 13,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 1095,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 1095,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 978,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 1095,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 994,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 13,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 59
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 7,
+      "center_lon": 9,
+      "climate": {
+        "air_temp_mean_c": 26.568,
+        "climate_descriptor": "Precipitación anual intermedia; temperatura media superior a 20 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 990.714,
+        "relative_humidity_mean_pct": 74.093,
+        "seasonal_air_temp_range_c": 3.332,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r048_c004",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Nigeria",
+      "elevation_range_m": [
+        -7.4,
+        2905.8
+      ],
+      "findings": [
+        "Puesto 14 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 1,330 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Siliciclastic sedimentary rocks (5 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual intermedia; temperatura media superior a 20 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 67, 14, 221.",
+        "Sensibilidad de método: original 14, Log-L2 25, percentil L1 13.",
+        "Perturbación de pesos: en el top 25 en 40/60 escenarios; puesto mediano 18.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r048_c004",
+      "individual_multiscale_tested": true,
+      "label": "Nigeria",
+      "lithology_counts": {
+        "Metamorphics": 4,
+        "Siliciclastic sedimentary rocks": 5
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 13,
+        "original": 14,
+        "robust_log_l2": 25
+      },
+      "relief_context_m": 1330.1,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 67,
+        "30km_9x9": 14,
+        "40km_7x7": 221
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 14,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 1245,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 1245,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 692,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 1245,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 1177,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 14,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 40
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 19,
+      "center_lon": 45,
+      "climate": {
+        "air_temp_mean_c": 26.212,
+        "climate_descriptor": "Precipitación anual muy baja; temperatura media superior a 20 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 43.048,
+        "relative_humidity_mean_pct": 25.609,
+        "seasonal_air_temp_range_c": 17.067,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r054_c022",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Arabia Saudita",
+      "elevation_range_m": [
+        -9.1,
+        2856.0
+      ],
+      "findings": [
+        "Puesto 15 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 2,055 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Unconsolidated sediments (6 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual muy baja; temperatura media superior a 20 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 24, 15, 6.",
+        "Sensibilidad de método: original 15, Log-L2 43, percentil L1 27.",
+        "Perturbación de pesos: en el top 25 en 49/60 escenarios; puesto mediano 15.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r054_c022",
+      "individual_multiscale_tested": true,
+      "label": "Arabia Saudita",
+      "lithology_counts": {
+        "Mixed sedimentary rocks": 3,
+        "Unconsolidated sediments": 6
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 27,
+        "original": 15,
+        "robust_log_l2": 43
+      },
+      "relief_context_m": 2055.1,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 24,
+        "30km_9x9": 15,
+        "40km_7x7": 6
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 15,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 958,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 958,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 1272,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 958,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 818,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 15,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 49
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 51,
+      "center_lon": -113,
+      "climate": {
+        "air_temp_mean_c": 5.469,
+        "climate_descriptor": "Precipitación anual baja; temperatura media inferior a 10 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 426.929,
+        "relative_humidity_mean_pct": 68.097,
+        "seasonal_air_temp_range_c": 26.983,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r070_c123",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Canadá",
+      "elevation_range_m": [
+        485.7,
+        3170.3
+      ],
+      "findings": [
+        "Puesto 16 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 1,799 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Siliciclastic sedimentary rocks (9 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual baja; temperatura media inferior a 10 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 18, 16, 21.",
+        "Sensibilidad de método: original 16, Log-L2 34, percentil L1 25.",
+        "Perturbación de pesos: en el top 25 en 46/60 escenarios; puesto mediano 15.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r070_c123",
+      "individual_multiscale_tested": true,
+      "label": "Canadá · Alberta",
+      "lithology_counts": {
+        "Siliciclastic sedimentary rocks": 9
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 25,
+        "original": 16,
+        "robust_log_l2": 34
+      },
+      "relief_context_m": 1799.4,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 18,
+        "30km_9x9": 16,
+        "40km_7x7": 21
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 16,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 980,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 980,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 1231,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 980,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 849,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 16,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 46
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 55,
+      "center_lon": 57,
+      "climate": {
+        "air_temp_mean_c": 2.573,
+        "climate_descriptor": "Precipitación anual intermedia; temperatura media inferior a 10 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 757.021,
+        "relative_humidity_mean_pct": 87.696,
+        "seasonal_air_temp_range_c": 33.932,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r072_c028",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Rusia",
+      "elevation_range_m": [
+        48.7,
+        1316.0
+      ],
+      "findings": [
+        "Puesto 17 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 623 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Mixed sedimentary rocks (7 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual intermedia; temperatura media inferior a 10 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 66, 17, 27.",
+        "Sensibilidad de método: original 17, Log-L2 17, percentil L1 19.",
+        "Perturbación de pesos: en el top 25 en 56/60 escenarios; puesto mediano 17.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r072_c028",
+      "individual_multiscale_tested": true,
+      "label": "Rusia · región de los Urales",
+      "lithology_counts": {
+        "Carbonate sedimentary rocks": 1,
+        "Mixed sedimentary rocks": 7,
+        "Unconsolidated sediments": 1
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 19,
+        "original": 17,
+        "robust_log_l2": 17
+      },
+      "relief_context_m": 623.1,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 66,
+        "30km_9x9": 17,
+        "40km_7x7": 27
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 17,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 1044,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 1044,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 1086,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 1044,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 937,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 17,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 56
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 45,
+      "center_lon": 77,
+      "climate": {
+        "air_temp_mean_c": 10.52,
+        "climate_descriptor": "Precipitación anual baja",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 274.313,
+        "relative_humidity_mean_pct": 54.054,
+        "seasonal_air_temp_range_c": 37.317,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r067_c038",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Kazajistán",
+      "elevation_range_m": [
+        310.0,
+        5165.1
+      ],
+      "findings": [
+        "Puesto 19 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 3,632 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Unconsolidated sediments (6 puntos).",
+        "Se observaron 1 puntos de clases volcánicas o piroclásticas, sin estimar proporciones de superficie.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual baja.",
+        "Sensibilidad de escala evaluada para este candidato: 28, 19, 4.",
+        "Sensibilidad de método: original 19, Log-L2 12, percentil L1 17.",
+        "Perturbación de pesos: en el top 25 en 51/60 escenarios; puesto mediano 19.5.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 8/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "broad_volcanic_observed",
+      "glim_leave_one_out_preserved": 8,
+      "id": "r067_c038",
+      "individual_multiscale_tested": true,
+      "label": "Kazajistán · sector con volcanismo intermedio cartografiado",
+      "lithology_counts": {
+        "Acid plutonic rocks": 1,
+        "Intermediate volcanic rocks": 1,
+        "Siliciclastic sedimentary rocks": 1,
+        "Unconsolidated sediments": 6
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 17,
+        "original": 19,
+        "robust_log_l2": 12
+      },
+      "relief_context_m": 3631.9,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 28,
+        "30km_9x9": 19,
+        "40km_7x7": 4
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+          "profile": "elysium_planitia",
+          "rank": 19,
+          "triage": "targeted_volcanic_process_hypothesis_followup"
+        },
+        {
+          "process_relation": "earth_volcanic_mars_volcanic_unit_not_sampled",
+          "profile": "gale_entorno",
+          "rank": 1005,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+          "profile": "jezero_entorno",
+          "rank": 1005,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "earth_volcanic_mars_volcanic_unit_not_sampled",
+          "profile": "meridiani_planum",
+          "rank": 1169,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+          "profile": "olympus_mons",
+          "rank": 1005,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+          "profile": "syrtis_major_planum",
+          "rank": 884,
+          "triage": "volcanic_signal_outside_topographic_shortlist"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 19,
+      "volcanic_observed_points": 1,
+      "weight_top25_of_60": 51
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 61,
+      "center_lon": 135,
+      "climate": {
+        "air_temp_mean_c": -8.73,
+        "climate_descriptor": "Precipitación anual baja; temperatura media bajo 0 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 445.002,
+        "relative_humidity_mean_pct": 87.17,
+        "seasonal_air_temp_range_c": 56.934,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r075_c067",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Rusia",
+      "elevation_range_m": [
+        73.8,
+        1955.0
+      ],
+      "findings": [
+        "Puesto 20 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 1,331 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Siliciclastic sedimentary rocks (6 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual baja; temperatura media bajo 0 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 265, 20, 13.",
+        "Sensibilidad de método: original 20, Log-L2 16, percentil L1 22.",
+        "Perturbación de pesos: en el top 25 en 52/60 escenarios; puesto mediano 19.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r075_c067",
+      "individual_multiscale_tested": true,
+      "label": "Rusia · Siberia oriental",
+      "lithology_counts": {
+        "Carbonate sedimentary rocks": 3,
+        "Siliciclastic sedimentary rocks": 6
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 22,
+        "original": 20,
+        "robust_log_l2": 16
+      },
+      "relief_context_m": 1331.1,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 265,
+        "30km_9x9": 20,
+        "40km_7x7": 13
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 20,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 997,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 997,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 1186,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 997,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 873,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 20,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 52
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 53,
+      "center_lon": 129,
+      "climate": {
+        "air_temp_mean_c": -3.037,
+        "climate_descriptor": "Precipitación anual intermedia; temperatura media bajo 0 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 716.438,
+        "relative_humidity_mean_pct": 87.574,
+        "seasonal_air_temp_range_c": 48.807,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r071_c064",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Rusia",
+      "elevation_range_m": [
+        97.9,
+        1832.1
+      ],
+      "findings": [
+        "Puesto 22 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 1,216 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Carbonate sedimentary rocks (3 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual intermedia; temperatura media bajo 0 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 42, 22, 459.",
+        "Sensibilidad de método: original 22, Log-L2 27, percentil L1 21.",
+        "Perturbación de pesos: en el top 25 en 33/60 escenarios; puesto mediano 23.5.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r071_c064",
+      "individual_multiscale_tested": true,
+      "label": "Rusia · Extremo Oriente ruso",
+      "lithology_counts": {
+        "Acid plutonic rocks": 2,
+        "Carbonate sedimentary rocks": 3,
+        "Metamorphics": 1,
+        "Siliciclastic sedimentary rocks": 2,
+        "Unconsolidated sediments": 1
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 21,
+        "original": 22,
+        "robust_log_l2": 27
+      },
+      "relief_context_m": 1216.4,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 42,
+        "30km_9x9": 22,
+        "40km_7x7": 459
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_plutonic_only_or_other",
+          "profile": "elysium_planitia",
+          "rank": 22,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 1274,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_plutonic_only_or_other",
+          "profile": "jezero_entorno",
+          "rank": 1274,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 729,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_plutonic_only_or_other",
+          "profile": "olympus_mons",
+          "rank": 1274,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_plutonic_only_or_other",
+          "profile": "syrtis_major_planum",
+          "rank": 1211,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 22,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 33
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": -7,
+      "center_lon": -75,
+      "climate": {
+        "air_temp_mean_c": 27.721,
+        "climate_descriptor": "Precipitación anual elevada; temperatura media superior a 20 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 1040.066,
+        "relative_humidity_mean_pct": 73.88,
+        "seasonal_air_temp_range_c": 3.078,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r041_c142",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Perú",
+      "elevation_range_m": [
+        13.2,
+        5207.0
+      ],
+      "findings": [
+        "Puesto 23 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 4,018 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Mixed sedimentary rocks (6 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual elevada; temperatura media superior a 20 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 147, 23, 74.",
+        "Sensibilidad de método: original 23, Log-L2 14, percentil L1 18.",
+        "Perturbación de pesos: en el top 25 en 32/60 escenarios; puesto mediano 25.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r041_c142",
+      "individual_multiscale_tested": true,
+      "label": "Perú",
+      "lithology_counts": {
+        "Mixed sedimentary rocks": 6,
+        "Unconsolidated sediments": 3
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 18,
+        "original": 23,
+        "robust_log_l2": 14
+      },
+      "relief_context_m": 4018.3,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 147,
+        "30km_9x9": 23,
+        "40km_7x7": 74
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 23,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 1042,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 1042,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 1092,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 1042,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 934,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 23,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 32
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 1,
+      "center_lon": 39,
+      "climate": {
+        "air_temp_mean_c": 28.792,
+        "climate_descriptor": "Precipitación anual baja; temperatura media superior a 20 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 383.82,
+        "relative_humidity_mean_pct": 52.934,
+        "seasonal_air_temp_range_c": 3.848,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r045_c019",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Kenia",
+      "elevation_range_m": [
+        2.2,
+        4453.5
+      ],
+      "findings": [
+        "Puesto 24 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 2,361 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Unconsolidated sediments (7 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual baja; temperatura media superior a 20 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 23, 24, 106.",
+        "Sensibilidad de método: original 24, Log-L2 15, percentil L1 20.",
+        "Perturbación de pesos: en el top 25 en 23/60 escenarios; puesto mediano 26.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r045_c019",
+      "individual_multiscale_tested": true,
+      "label": "Kenia",
+      "lithology_counts": {
+        "Metamorphics": 1,
+        "Siliciclastic sedimentary rocks": 1,
+        "Unconsolidated sediments": 7
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 20,
+        "original": 24,
+        "robust_log_l2": 15
+      },
+      "relief_context_m": 2361.4,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 23,
+        "30km_9x9": 24,
+        "40km_7x7": 106
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 24,
+          "triage": "topographic_shortlist_geology_requires_independent_validation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 1195,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 1195,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 743,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 1195,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 1116,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 24,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 23
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 45,
+      "center_lon": -103,
+      "climate": {
+        "air_temp_mean_c": 9.142,
+        "climate_descriptor": "Precipitación anual baja; temperatura media inferior a 10 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 462.691,
+        "relative_humidity_mean_pct": 61.728,
+        "seasonal_air_temp_range_c": 28.704,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r067_c128",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Estados Unidos",
+      "elevation_range_m": [
+        398.4,
+        3351.8
+      ],
+      "findings": [
+        "Puesto 26 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 1,785 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Siliciclastic sedimentary rocks (8 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual baja; temperatura media inferior a 10 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 183, 26, 128.",
+        "Sensibilidad de método: original 26, Log-L2 24, percentil L1 29.",
+        "Perturbación de pesos: en el top 25 en 30/60 escenarios; puesto mediano 25.5.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r067_c128",
+      "individual_multiscale_tested": true,
+      "label": "Estados Unidos · Grandes Llanuras",
+      "lithology_counts": {
+        "Siliciclastic sedimentary rocks": 8,
+        "Unconsolidated sediments": 1
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 29,
+        "original": 26,
+        "robust_log_l2": 24
+      },
+      "relief_context_m": 1785.0,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 183,
+        "30km_9x9": 26,
+        "40km_7x7": 128
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 26,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 923,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 923,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 1342,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 923,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 758,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 26,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 30
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": -17,
+      "center_lon": -63,
+      "climate": {
+        "air_temp_mean_c": 26.218,
+        "climate_descriptor": "Precipitación anual elevada; temperatura media superior a 20 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 1150.189,
+        "relative_humidity_mean_pct": 66.164,
+        "seasonal_air_temp_range_c": 7.022,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r036_c148",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "Bolivia",
+      "elevation_range_m": [
+        88.1,
+        5204.3
+      ],
+      "findings": [
+        "Puesto 27 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 4,028 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Mixed sedimentary rocks (8 puntos).",
+        "No se registraron clases volcánicas en las observaciones GLiM; no descarta vulcanismo fuera de los puntos muestreados.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual elevada; temperatura media superior a 20 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 26, 27, 107.",
+        "Sensibilidad de método: original 27, Log-L2 20, percentil L1 26.",
+        "Perturbación de pesos: en el top 25 en 23/60 escenarios; puesto mediano 28.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 0/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "volcanic_not_observed_in_sample",
+      "glim_leave_one_out_preserved": 0,
+      "id": "r036_c148",
+      "individual_multiscale_tested": true,
+      "label": "Bolivia · sector oriental",
+      "lithology_counts": {
+        "Metamorphics": 1,
+        "Mixed sedimentary rocks": 8
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 26,
+        "original": 27,
+        "robust_log_l2": 20
+      },
+      "relief_context_m": 4028.2,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 26,
+        "30km_9x9": 27,
+        "40km_7x7": 107
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "elysium_planitia",
+          "rank": 27,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "gale_entorno",
+          "rank": 1220,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "jezero_entorno",
+          "rank": 1220,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "no_broad_shared_process_demonstrated",
+          "profile": "meridiani_planum",
+          "rank": 863,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "olympus_mons",
+          "rank": 1220,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "martian_volcanic_earth_sediment_observed_only",
+          "profile": "syrtis_major_planum",
+          "rank": 1146,
+          "triage": "not_prioritized_under_current_evidence"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 27,
+      "volcanic_observed_points": 0,
+      "weight_top25_of_60": 23
+    },
+    {
+      "audit_scope": "individual_summary_of_existing_evidence_not_external_geologic_validation",
+      "center_lat": 47,
+      "center_lon": 123,
+      "climate": {
+        "air_temp_mean_c": 4.332,
+        "climate_descriptor": "Precipitación anual intermedia; temperatura media inferior a 10 °C",
+        "fields_available": 4,
+        "point_context_only": true,
+        "precip_annual_mean_mm": 589.954,
+        "relative_humidity_mean_pct": 68.958,
+        "seasonal_air_temp_range_c": 41.573,
+        "source": "NASA POWER",
+        "source_detail": "Histórico environment_sample.csv; fila r068_c061",
+        "status": "complete",
+        "years": "período histórico del CSV"
+      },
+      "climate_status": "complete",
+      "country": "China",
+      "elevation_range_m": [
+        113.6,
+        1509.2
+      ],
+      "findings": [
+        "Puesto 28 en 2.617 regiones terrestres respecto a Elysium Planitia, con la función topográfica histórica.",
+        "Diferencia P98–P02 del mapa ETOPO regional: 1,023 m (ventana de visualización, no puntuación del algoritmo).",
+        "Litología GLiM más frecuente entre 9 observaciones: Unconsolidated sediments (3 puntos).",
+        "Se observaron 2 puntos de clases volcánicas o piroclásticas, sin estimar proporciones de superficie.",
+        "Contexto meteorológico del centro de la celda: Precipitación anual intermedia; temperatura media inferior a 10 °C.",
+        "Sensibilidad de escala evaluada para este candidato: 6, 28, 45.",
+        "Sensibilidad de método: original 28, Log-L2 49, percentil L1 32.",
+        "Perturbación de pesos: en el top 25 en 25/60 escenarios; puesto mediano 27.0.",
+        "Prueba leave-one-out de GLiM: señal volcánica conservada en 9/9 retiradas de una observación; no mide proporción de área."
+      ],
+      "geological_observation": "broad_volcanic_observed",
+      "glim_leave_one_out_preserved": 9,
+      "id": "r068_c061",
+      "individual_multiscale_tested": true,
+      "label": "China · noreste del país · referencia secundaria",
+      "lithology_counts": {
+        "Acid plutonic rocks": 2,
+        "Basic volcanic rocks": 1,
+        "Mixed sedimentary rocks": 1,
+        "Pyroclastics": 1,
+        "Siliciclastic sedimentary rocks": 1,
+        "Unconsolidated sediments": 3
+      },
+      "mars_profiles_available": 6,
+      "method_ranks": {
+        "empirical_percentile_l1": 32,
+        "original": 28,
+        "robust_log_l2": 49
+      },
+      "relief_context_m": 1022.7,
+      "sampled_glim_points": 9,
+      "scale_ranks": {
+        "15km_17x17": 6,
+        "30km_9x9": 28,
+        "40km_7x7": 45
+      },
+      "sensitivity_full_v204": true,
+      "six_mars_profiles": [
+        {
+          "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+          "profile": "elysium_planitia",
+          "rank": 28,
+          "triage": "volcanic_signal_outside_topographic_shortlist"
+        },
+        {
+          "process_relation": "earth_volcanic_mars_volcanic_unit_not_sampled",
+          "profile": "gale_entorno",
+          "rank": 1025,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+          "profile": "jezero_entorno",
+          "rank": 1025,
+          "triage": "review_topographic_reference_extrapolation"
+        },
+        {
+          "process_relation": "earth_volcanic_mars_volcanic_unit_not_sampled",
+          "profile": "meridiani_planum",
+          "rank": 1121,
+          "triage": "not_prioritized_under_current_evidence"
+        },
+        {
+          "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+          "profile": "olympus_mons",
+          "rank": 1025,
+          "triage": "hold_martian_topographic_reference_domain"
+        },
+        {
+          "process_relation": "broad_volcanic_cartography_and_lithology_signal",
+          "profile": "syrtis_major_planum",
+          "rank": 911,
+          "triage": "volcanic_signal_outside_topographic_shortlist"
+        }
+      ],
+      "topo_status": true,
+      "topographic_rank_elysium": 28,
+      "volcanic_observed_points": 2,
+      "weight_top25_of_60": 25
+    }
+  ],
+  "schema_version": "mars_analog_candidate_audits_v2.0.4",
+  "status": "existing_evidence_individual_review_not_geological_validation"
+}

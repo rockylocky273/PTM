@@ -1,0 +1,113 @@
+{
+  "schema_version": "mars_analog_external_benchmarks_v1.3.3",
+  "freeze_date": "2026-11-14",
+  "protocol": {
+    "predefined_top_ks": [25, 100, 250],
+    "region_grid_deg": 2,
+    "reference_scope": "Referencias independientes del motor; analogía por proceso o ambiente, no equivalencia topográfica global",
+    "primary_outcome": "capacidad de localizar el sitio externo en el catálogo, sin convertir su puesto en un aprobado geológico",
+    "exploratory_outcomes": "puesto topográfico por perfil, top K, robustez por escalas y cobertura de datos",
+    "forbidden": ["Ajustar pesos con este pequeño conjunto", "Inferir que un puesto malo refuta la analogía publicada", "Contar contrastes de proceso como sitios negativos de geología", "Calcular precisión, recall, AUC o probabilidad de similitud sin una muestra independiente adecuada"]
+  },
+  "cases": [
+    {
+      "case_id": "holuhraun_elysium",
+      "role": "documented_direct_target_analogue",
+      "site_name": "Holuhraun (campo de lava 2014–2015), Islandia",
+      "site_lat": 64.8498,
+      "site_lon": -16.829975,
+      "mars_profile": "elysium_planitia",
+      "process_scope": "fissure_fed_lava_emplacement",
+      "reference_statement": "Analogía publicada específicamente para terrenos volcánicos jóvenes de Elysium Planitia; no para toda su topografía regional",
+      "sources": ["https://www.usgs.gov/publications/2014-2015-holuhraun-lava-flow-field-iceland-a-planetary-analog-young-volcanic-terrains", "https://eros.usgs.gov/media-gallery/image-of-the-week/holuhraun-lava-flow-iceland"]
+    },
+    {
+      "case_id": "mauna_loa_olympus",
+      "role": "documented_direct_target_analogue",
+      "site_name": "Mauna Loa, Hawái (EE. UU.)",
+      "site_lat": 19.475,
+      "site_lon": -155.608,
+      "mars_profile": "olympus_mons",
+      "process_scope": "shield_volcano_morphology",
+      "reference_statement": "Comparación de volcanes escudo; sus dimensiones y sistemas tectónicos difieren fuertemente",
+      "sources": ["https://www.usgs.gov/news/volcano-watch-volcanism-other-planets", "https://www.usgs.gov/volcanoes/mauna-loa", "https://pubs.usgs.gov/publication/sim3470"]
+    },
+    {
+      "case_id": "salda_jezero",
+      "role": "documented_direct_target_analogue",
+      "site_name": "Lago Salda, Turquía",
+      "site_lat": 37.55,
+      "site_lon": 29.68,
+      "mars_profile": "jezero_entorno",
+      "process_scope": "lacustrine_carbonates_and_deltas",
+      "reference_statement": "Analogía lacustre/carbonática del paleolago Jezero, no del relieve de sus 240 km circundantes",
+      "sources": ["https://science.nasa.gov/blogs/earth-matters/2021/02/17/what-a-lake-in-turkey-can-tell-us-about-mars/", "https://assets.science.nasa.gov/content/dam/science/psd/astrobiology/for-researchers/early-career-field-research-fund/report_lc_garczynski_project.pdf"]
+    },
+    {
+      "case_id": "badwater_gale",
+      "role": "documented_direct_target_analogue",
+      "site_name": "Badwater Basin, Death Valley, EE. UU. (punto de referencia del valle)",
+      "site_lat": 36.229805,
+      "site_lon": -116.767413,
+      "mars_profile": "gale_entorno",
+      "process_scope": "closed_basin_sedimentation_and_evaporation",
+      "reference_statement": "NASA compara Death Valley con Gale por cuencas endorreicas; Badwater es un punto geográfico de referencia, no el sitio exacto del estudio",
+      "sources": ["https://science.nasa.gov/earth/earth-observatory/mars-rover-curiosity-on-a-familiar-landscape-78860/", "https://www.nps.gov/planyourvisit/event-details.htm?id=59F834E6-C4AE-5BAF-60BB19B3BC28F3F3"]
+    },
+    {
+      "case_id": "craters_of_the_moon_process",
+      "role": "planetary_process_reference_only",
+      "site_name": "Craters of the Moon, Idaho, EE. UU.",
+      "site_lat": 43.42,
+      "site_lon": -113.5,
+      "mars_profile": null,
+      "process_scope": "basaltic_lava_flows",
+      "reference_statement": "Referencia volcánica terrestre; no hay etiqueta publicada aquí de equivalencia con uno de nuestros seis perfiles concretos",
+      "sources": ["https://www.usgs.gov/volcanoes/craters-of-the-moon-volcanic-field"]
+    },
+    {
+      "case_id": "meteor_crater_process",
+      "role": "planetary_process_reference_only",
+      "site_name": "Meteor Crater, Arizona, EE. UU.",
+      "site_lat": 35.033333,
+      "site_lon": -111.016667,
+      "mars_profile": null,
+      "process_scope": "hypervelocity_impact_cratering",
+      "reference_statement": "Control positivo para el proceso de impacto, no evidencia de que represente la totalidad de Gale o Jezero",
+      "sources": ["https://www.usgs.gov/centers/astrogeology-science-center/meteor-crater-drill-hole-sample-collection", "https://pubs.usgs.gov/pp/0590/report.pdf"]
+    },
+    {
+      "case_id": "salda_olympus_scope_contrast",
+      "role": "process_scope_contrast_not_negative_site",
+      "site_name": "Lago Salda, Turquía",
+      "site_lat": 37.55,
+      "site_lon": 29.68,
+      "mars_profile": "olympus_mons",
+      "process_scope": "lacustrine_carbonates_not_shield_volcanism",
+      "reference_statement": "Contraste deliberado de hipótesis de procesos: la analogía lacustre de Jezero no establece analogía de volcanes escudo con Olympus",
+      "sources": ["https://science.nasa.gov/blogs/earth-matters/2021/02/17/what-a-lake-in-turkey-can-tell-us-about-mars/", "https://www.usgs.gov/news/volcano-watch-volcanism-other-planets"]
+    },
+    {
+      "case_id": "meteor_elysium_scope_contrast",
+      "role": "process_scope_contrast_not_negative_site",
+      "site_name": "Meteor Crater, Arizona, EE. UU.",
+      "site_lat": 35.033333,
+      "site_lon": -111.016667,
+      "mars_profile": "elysium_planitia",
+      "process_scope": "impact_process_not_fissure_lava_emplacement",
+      "reference_statement": "Contraste de procesos: una referencia de impacto no valida por sí sola una analogía de coladas volcánicas con Elysium",
+      "sources": ["https://www.usgs.gov/centers/astrogeology-science-center/meteor-crater-drill-hole-sample-collection", "https://www.usgs.gov/publications/2014-2015-holuhraun-lava-flow-field-iceland-a-planetary-analog-young-volcanic-terrains"]
+    },
+    {
+      "case_id": "atacama_out_of_scope",
+      "role": "environmental_reference_not_topographic_truth",
+      "site_name": "Desierto de Atacama, Chile (región extensa)",
+      "site_lat": null,
+      "site_lon": null,
+      "mars_profile": null,
+      "process_scope": "hyperaridity_and_life_detection",
+      "reference_statement": "NASA lo usa como análogo astrobiológico y para instrumentación; no se le asigna puntuación de relieve ni centro artificial",
+      "sources": ["https://astrobiology.nasa.gov/research-locations/", "https://www.nasa.gov/image-article/tire-tracks-mars-atacama-rover-astrobiology-drilling-studies/"]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+﻿id,country,center_lat,center_lon,status,air_temp_mean_c,precip_annual_mean_mm,relative_humidity_mean_pct,seasonal_air_temp_range_c,climate_descriptor,source_detail
+r063_c140,Estados Unidos,37,-79,complete,14.918,1201.073,75.999,24.159,Precipitación anual elevada,Histórico environment_sample.csv; fila r063_c140
+r064_c139,Estados Unidos,39,-81,complete,12.848,1148.576,77.146,25.084,Precipitación anual elevada,Histórico environment_sample.csv; fila r064_c139
+r077_c062,Rusia,65,125,complete,-9.362,472.963,86.824,56.96,Precipitación anual baja; temperatura media bajo 0 °C,Histórico environment_sample.csv; fila r077_c062
+r046_c005,Camerún,3,11,complete,23.536,1537.928,86.647,2.644,Precipitación anual elevada; temperatura media superior a 20 °C,Histórico environment_sample.csv; fila r046_c005
+r075_c030,Rusia,61,61,complete,-0.81,776.218,91.494,37.228,Precipitación anual intermedia; temperatura media bajo 0 °C,Histórico environment_sample.csv; fila r075_c030
+r026_c146,Argentina,-37,-67,complete,16.311,488.391,52.675,18.98,Precipitación anual baja,Histórico environment_sample.csv; fila r026_c146
+r075_c121,Canadá,61,-117,complete,-2.925,473.863,85.265,42.777,Precipitación anual baja; temperatura media bajo 0 °C,Histórico environment_sample.csv; fila r075_c121
+r069_c067,Rusia,49,135,complete,1.203,797.282,85.47,44.271,Precipitación anual intermedia; temperatura media inferior a 10 °C,Histórico environment_sample.csv; fila r069_c067
+r058_c003,Argelia,27,7,complete,24.366,16.618,24.545,23.621,Precipitación anual muy baja; temperatura media superior a 20 °C,Histórico environment_sample.csv; fila r058_c003
+r049_c146,Venezuela,9,-67,complete,29.165,649.638,63.066,2.467,Precipitación anual intermedia; temperatura media superior a 20 °C,Histórico environment_sample.csv; fila r049_c146
+r029_c148,Argentina,-31,-63,complete,19.561,793.219,64.618,15.757,Precipitación anual intermedia,Histórico environment_sample.csv; fila r029_c148
+r070_c008,Polonia,51,17,complete,9.988,635.059,77.91,21.648,Precipitación anual intermedia; temperatura media inferior a 10 °C,Histórico environment_sample.csv; fila r070_c008
+r052_c010,Chad,15,21,complete,27.309,479.264,31.81,12.011,Precipitación anual baja; temperatura media superior a 20 °C,Histórico environment_sample.csv; fila r052_c010
+r048_c004,Nigeria,7,9,complete,26.568,990.714,74.093,3.332,Precipitación anual intermedia; temperatura media superior a 20 °C,Histórico environment_sample.csv; fila r048_c004
+r054_c022,Arabia Saudita,19,45,complete,26.212,43.048,25.609,17.067,Precipitación anual muy baja; temperatura media superior a 20 °C,Histórico environment_sample.csv; fila r054_c022
+r070_c123,Canadá,51,-113,complete,5.469,426.929,68.097,26.983,Precipitación anual baja; temperatura media inferior a 10 °C,Histórico environment_sample.csv; fila r070_c123
+r072_c028,Rusia,55,57,complete,2.573,757.021,87.696,33.932,Precipitación anual intermedia; temperatura media inferior a 10 °C,Histórico environment_sample.csv; fila r072_c028
+r067_c038,Kazajistán,45,77,complete,10.52,274.313,54.054,37.317,Precipitación anual baja,Histórico environment_sample.csv; fila r067_c038
+r075_c067,Rusia,61,135,complete,-8.73,445.002,87.17,56.934,Precipitación anual baja; temperatura media bajo 0 °C,Histórico environment_sample.csv; fila r075_c067
+r071_c064,Rusia,53,129,complete,-3.037,716.438,87.574,48.807,Precipitación anual intermedia; temperatura media bajo 0 °C,Histórico environment_sample.csv; fila r071_c064
+r041_c142,Perú,-7,-75,complete,27.721,1040.066,73.88,3.078,Precipitación anual elevada; temperatura media superior a 20 °C,Histórico environment_sample.csv; fila r041_c142
+r045_c019,Kenia,1,39,complete,28.792,383.82,52.934,3.848,Precipitación anual baja; temperatura media superior a 20 °C,Histórico environment_sample.csv; fila r045_c019
+r067_c128,Estados Unidos,45,-103,complete,9.142,462.691,61.728,28.704,Precipitación anual baja; temperatura media inferior a 10 °C,Histórico environment_sample.csv; fila r067_c128
+r036_c148,Bolivia,-17,-63,complete,26.218,1150.189,66.164,7.022,Precipitación anual elevada; temperatura media superior a 20 °C,Histórico environment_sample.csv; fila r036_c148
+r068_c061,China,47,123,complete,4.332,589.954,68.958,41.573,Precipitación anual intermedia; temperatura media inferior a 10 °C,Histórico environment_sample.csv; fila r068_c061

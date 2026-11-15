@@ -1,0 +1,10 @@
+﻿case_id,site_name,role,mars_profile,earth_region_id,topographic_rank,evaluation_status,validation_outcome
+holuhraun_elysium,"Holuhraun (campo de lava 2014–2015), Islandia",documented_direct_target_analogue,elysium_planitia,r077_c171,,external_site_not_in_screened_population,inconclusive_on_geological_analogy
+mauna_loa_olympus,"Mauna Loa, Hawái (EE. UU.)",documented_direct_target_analogue,olympus_mons,r054_c102,,external_site_not_in_screened_population,inconclusive_on_geological_analogy
+salda_jezero,"Lago Salda, Turquía",documented_direct_target_analogue,jezero_entorno,r063_c014,,external_site_not_in_screened_population,inconclusive_on_geological_analogy
+badwater_gale,"Badwater Basin, Death Valley, EE. UU. (punto de referencia del valle)",documented_direct_target_analogue,gale_entorno,r063_c121,166,topography_outside_reference_domain,inconclusive_on_geological_analogy
+craters_of_the_moon_process,"Craters of the Moon, Idaho, EE. UU.",planetary_process_reference_only,,r066_c123,,reference_without_specific_mars_profile,inconclusive_on_geological_analogy
+meteor_crater_process,"Meteor Crater, Arizona, EE. UU.",planetary_process_reference_only,,r062_c124,,reference_without_specific_mars_profile,inconclusive_on_geological_analogy
+salda_olympus_scope_contrast,"Lago Salda, Turquía",process_scope_contrast_not_negative_site,olympus_mons,r063_c014,,blocked_process_scope_contrast,inconclusive_on_geological_analogy
+meteor_elysium_scope_contrast,"Meteor Crater, Arizona, EE. UU.",process_scope_contrast_not_negative_site,elysium_planitia,r062_c124,,blocked_process_scope_contrast,inconclusive_on_geological_analogy
+atacama_out_of_scope,"Desierto de Atacama, Chile (región extensa)",environmental_reference_not_topographic_truth,,,,out_of_scope_environmental_reference,inconclusive_on_geological_analogy

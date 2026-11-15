@@ -1,0 +1,26 @@
+﻿id,label,country,center_lat,center_lon,topographic_rank,volcanic_points,is_priority,lithology_counts,relief_context_m
+r063_c140,Estados Unidos · sector de los Apalaches,Estados Unidos,37,-79,1,0,False,"{""Metamorphics"": 7, ""Siliciclastic sedimentary rocks"": 2}",1011.0
+r064_c139,Estados Unidos · sector de los Apalaches,Estados Unidos,39,-81,2,0,False,"{""Siliciclastic sedimentary rocks"": 9}",928.3
+r077_c062,Rusia · Siberia,Rusia,65,125,3,0,False,"{""Mixed sedimentary rocks"": 1, ""Siliciclastic sedimentary rocks"": 8}",1393.1
+r046_c005,Camerún,Camerún,3,11,4,0,False,"{""Metamorphics"": 9}",1160.0
+r075_c030,Rusia · región de los Urales,Rusia,61,61,5,0,False,"{""Basic plutonic rocks"": 3, ""Mixed sedimentary rocks"": 5, ""Siliciclastic sedimentary rocks"": 1}",607.2
+r026_c146,Argentina · sector volcánico estudiado,Argentina,-37,-67,6,2,True,"{""Basic volcanic rocks"": 2, ""Unconsolidated sediments"": 7}",2903.1
+r075_c121,Canadá · noroeste canadiense,Canadá,61,-117,7,0,False,"{""Mixed sedimentary rocks"": 9}",674.3
+r069_c067,Rusia · Extremo Oriente ruso · observaciones piroclásticas,Rusia,49,135,8,2,True,"{""Mixed sedimentary rocks"": 2, ""Pyroclastics"": 2, ""Unconsolidated sediments"": 5}",1202.6
+r058_c003,Argelia,Argelia,27,7,9,0,False,"{""Mixed sedimentary rocks"": 4, ""Siliciclastic sedimentary rocks"": 1, ""Unconsolidated sediments"": 4}",1249.6
+r049_c146,Venezuela,Venezuela,9,-67,10,0,False,"{""Mixed sedimentary rocks"": 3, ""Siliciclastic sedimentary rocks"": 2, ""Unconsolidated sediments"": 4}",1486.0
+r029_c148,Argentina,Argentina,-31,-63,11,0,False,"{""Siliciclastic sedimentary rocks"": 5, ""Unconsolidated sediments"": 4}",1510.4
+r070_c008,Polonia,Polonia,51,17,12,0,False,"{""Carbonate sedimentary rocks"": 1, ""Metamorphics"": 1, ""Siliciclastic sedimentary rocks"": 1, ""Unconsolidated sediments"": 6}",1022.5
+r052_c010,Chad,Chad,15,21,13,0,False,"{""Metamorphics"": 4, ""Unconsolidated sediments"": 5}",934.3
+r048_c004,Nigeria,Nigeria,7,9,14,0,False,"{""Metamorphics"": 4, ""Siliciclastic sedimentary rocks"": 5}",1330.1
+r054_c022,Arabia Saudita,Arabia Saudita,19,45,15,0,False,"{""Mixed sedimentary rocks"": 3, ""Unconsolidated sediments"": 6}",2055.1
+r070_c123,Canadá · Alberta,Canadá,51,-113,16,0,False,"{""Siliciclastic sedimentary rocks"": 9}",1799.4
+r072_c028,Rusia · región de los Urales,Rusia,55,57,17,0,False,"{""Carbonate sedimentary rocks"": 1, ""Mixed sedimentary rocks"": 7, ""Unconsolidated sediments"": 1}",623.1
+r067_c038,Kazajistán · sector con volcanismo intermedio cartografiado,Kazajistán,45,77,19,1,True,"{""Acid plutonic rocks"": 1, ""Intermediate volcanic rocks"": 1, ""Siliciclastic sedimentary rocks"": 1, ""Unconsolidated sediments"": 6}",3631.9
+r075_c067,Rusia · Siberia oriental,Rusia,61,135,20,0,False,"{""Carbonate sedimentary rocks"": 3, ""Siliciclastic sedimentary rocks"": 6}",1331.1
+r071_c064,Rusia · Extremo Oriente ruso,Rusia,53,129,22,0,False,"{""Acid plutonic rocks"": 2, ""Carbonate sedimentary rocks"": 3, ""Metamorphics"": 1, ""Siliciclastic sedimentary rocks"": 2, ""Unconsolidated sediments"": 1}",1216.4
+r041_c142,Perú,Perú,-7,-75,23,0,False,"{""Mixed sedimentary rocks"": 6, ""Unconsolidated sediments"": 3}",4018.3
+r045_c019,Kenia,Kenia,1,39,24,0,False,"{""Metamorphics"": 1, ""Siliciclastic sedimentary rocks"": 1, ""Unconsolidated sediments"": 7}",2361.4
+r067_c128,Estados Unidos · Grandes Llanuras,Estados Unidos,45,-103,26,0,False,"{""Siliciclastic sedimentary rocks"": 8, ""Unconsolidated sediments"": 1}",1785.0
+r036_c148,Bolivia · sector oriental,Bolivia,-17,-63,27,0,False,"{""Metamorphics"": 1, ""Mixed sedimentary rocks"": 8}",4028.2
+r068_c061,China · noreste del país · referencia secundaria,China,47,123,28,2,False,"{""Acid plutonic rocks"": 2, ""Basic volcanic rocks"": 1, ""Mixed sedimentary rocks"": 1, ""Pyroclastics"": 1, ""Siliciclastic sedimentary rocks"": 1, ""Unconsolidated sediments"": 3}",1022.7
