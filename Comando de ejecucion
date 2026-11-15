@@ -1,0 +1,2 @@
+Codigo de ejecucion>
+powershell -ExecutionPolicy Bypass -File .\EJECUTAR_V2.ps1 -SoloRover
